@@ -34,6 +34,9 @@ object Dependencies {
     //"org.apache.spark" %% "spark-sql" % sparkVersion % Provided, // for submiting spark app as a job to cluster
     "org.apache.spark" %% "spark-sql" % sparkVersion, // for simple standalone spark app
 
+    // helper methods from package spark-daria to rename spark output files
+    "com.github.mrpowers" %% "spark-daria" % "1.2.3",
+
     // logging
     "com.typesafe.scala-logging" %% "scala-logging" % "3.9.2",
     "ch.qos.logback" % "logback-classic" % "1.2.3"

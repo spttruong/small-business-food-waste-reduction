@@ -22,20 +22,21 @@ object MockDataGenerator {
         seq(rnd.nextInt(seq.length))
 
     def randomIntBetween(start: Int, end: Int)(rnd: Random): Int = {
+        // generates random int between start and end input params (both inclusive)
         start + rnd.nextInt( (end - start) + 1 ) 
     }
 
-    val randDateTime: String  = {
-        val randMonth = randomIntBetween(1,13)(rnd)
+    def randDateTime: String  = {
+        val randMonth = randomIntBetween(1,12)(rnd)
         def randDateStream(month: Int): Int = month match {
             case 1 | 3 | 5 | 7 | 8 | 10 | 12  => randomIntBetween(1,31)(rnd) // 1 to 31
             case 2  => randomIntBetween(1,29)(rnd) // 1 to 28, doesn't account for leap years
-            case 4 | 6 | 9 | 11 => randomIntBetween(1,31)(rnd) // 1 to 30
+            case 4 | 6 | 9 | 11 => randomIntBetween(1,30)(rnd) // 1 to 30
         }
-        val randYear = randomIntBetween(2020,2022)(rnd) // up to 2021
-        val randHours = randomIntBetween(0,24)(rnd) // up to 23 hours
-        val randMinutes = randomIntBetween(0,60)(rnd) // up to 59 mins
-        val randSeconds = randomIntBetween(0,60)(rnd) // up to 59 seconds
+        val randYear = randomIntBetween(2020,2021)(rnd) // up to 2021
+        val randHours = randomIntBetween(0,23)(rnd) // up to 23 hours
+        val randMinutes = randomIntBetween(0,59)(rnd) // up to 59 mins
+        val randSeconds = randomIntBetween(0,59)(rnd) // up to 59 seconds
         
         val month = randMonth
         
@@ -65,11 +66,11 @@ object MockDataGenerator {
 
     val lossReasons = Seq("Excess/over-order", "Expiration", "Improper Storage", "Storage Failure", "Contamination")
     
-    val randEmployee = getRandomElement(sampleEmployeesList, rnd)
+    def randEmployee = getRandomElement(sampleEmployeesList, rnd)
 
-    val randStoreId = randomIntBetween(100,106)(rnd) // 5 stores
+    def randStoreId = randomIntBetween(100,105)(rnd) // 5 stores
 
-    val randFoodCategory = getRandomElement(foodCategories, rnd)
+    def randFoodCategory = getRandomElement(foodCategories, rnd)
 
     def wasteType(foodCategory: String): String = foodCategory match {
         case "Prepared Meal" => "Post-consumer"
@@ -81,7 +82,7 @@ object MockDataGenerator {
         case _ => getRandomElement(lossReasons, rnd)
     }
 
-    val randQuantity = randomIntBetween(1,321)(rnd) // max 20 lbs (320 oz)
+    def randQuantity = randomIntBetween(1,320)(rnd) // max 20 lbs (320 oz)
 
     val mockData: LazyList[FoodWasteRecord] = LazyList.continually {
         

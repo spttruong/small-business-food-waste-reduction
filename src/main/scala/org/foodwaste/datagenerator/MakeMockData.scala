@@ -7,6 +7,7 @@ import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.{Dataset}
 import org.foodwaste.utils.SparkUtils
 
+
 object MakeMockData {
  
     def main(args: Array[String]) : Unit = {
