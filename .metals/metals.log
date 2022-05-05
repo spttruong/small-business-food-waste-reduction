@@ -13326,3 +13326,299 @@ WARNING: Unmatched cancel notification for request id 1122
 2022.05.05 12:49:44 INFO  time: compiled root-test in 1.94s
 2022.05.05 12:49:49 INFO  compiling root (1 scala source)
 2022.05.05 12:49:51 INFO  time: compiled root in 2.27s
+2022.05.05 12:50:52 INFO  compiling root (1 scala source)
+2022.05.05 12:50:52 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.5' (since 2m 6.674s)
+2022.05.05 12:50:52 INFO  compiling root (1 scala source)
+2022.05.05 12:50:54 INFO  time: compiled root in 1.52s
+May 05, 2022 12:51:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1259
+May 05, 2022 12:51:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1262
+May 05, 2022 12:51:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1258
+2022.05.05 12:52:00 INFO  compiling root (1 scala source)
+2022.05.05 12:52:00 INFO  time: compiled root in 0.26s
+2022.05.05 12:52:04 INFO  compiling root (1 scala source)
+2022.05.05 12:52:04 INFO  time: compiled root in 0.38s
+2022.05.05 12:52:11 INFO  compiling root (1 scala source)
+2022.05.05 12:52:11 INFO  time: compiled root in 0.29s
+2022.05.05 12:52:15 INFO  compiling root (1 scala source)
+2022.05.05 12:52:15 INFO  time: compiled root in 0.58s
+2022.05.05 12:52:17 INFO  compiling root (1 scala source)
+2022.05.05 12:52:17 INFO  time: compiled root in 0.35s
+2022.05.05 12:52:20 INFO  compiling root (1 scala source)
+2022.05.05 12:52:20 INFO  time: compiled root in 0.32s
+2022.05.05 12:52:40 INFO  compiling root (1 scala source)
+2022.05.05 12:52:40 INFO  time: compiled root in 0.3s
+2022.05.05 12:52:45 INFO  compiling root (1 scala source)
+2022.05.05 12:52:45 INFO  time: compiled root in 0.23s
+2022.05.05 12:52:49 INFO  compiling root (1 scala source)
+2022.05.05 12:52:49 INFO  time: compiled root in 0.26s
+2022.05.05 12:52:53 INFO  compiling root (1 scala source)
+2022.05.05 12:52:53 INFO  time: compiled root in 0.39s
+2022.05.05 12:52:56 INFO  compiling root (1 scala source)
+2022.05.05 12:52:56 INFO  time: compiled root in 0.44s
+2022.05.05 12:52:58 INFO  compiling root (1 scala source)
+2022.05.05 12:52:58 INFO  time: compiled root in 0.44s
+2022.05.05 12:53:02 INFO  compiling root (1 scala source)
+2022.05.05 12:53:02 INFO  time: compiled root in 0.51s
+2022.05.05 12:53:11 INFO  compiling root (1 scala source)
+2022.05.05 12:53:11 INFO  time: compiled root in 0.44s
+2022.05.05 12:53:12 INFO  compiling root (1 scala source)
+2022.05.05 12:53:12 INFO  time: compiled root in 0.59s
+2022.05.05 12:53:17 INFO  compiling root (1 scala source)
+2022.05.05 12:53:17 INFO  time: compiled root in 0.27s
+2022.05.05 12:53:19 INFO  compiling root (1 scala source)
+2022.05.05 12:53:19 INFO  time: compiled root in 0.3s
+2022.05.05 12:53:43 INFO  compiling root (1 scala source)
+2022.05.05 12:53:43 INFO  time: compiled root in 0.31s
+2022.05.05 12:53:47 INFO  compiling root (1 scala source)
+2022.05.05 12:53:47 INFO  time: compiled root in 0.76s
+May 05, 2022 12:53:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1540
+2022.05.05 12:53:49 INFO  compiling root (1 scala source)
+2022.05.05 12:53:51 INFO  time: compiled root in 1.94s
+May 05, 2022 12:53:51 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+2022.05.05 12:53:53 INFO  compiling root (1 scala source)
+2022.05.05 12:53:55 INFO  time: compiled root in 1.66s
+2022.05.05 12:54:00 INFO  compiling root (1 scala source)
+2022.05.05 12:54:00 INFO  time: compiled root in 0.38s
+2022.05.05 12:54:08 INFO  compiling root (1 scala source)
+2022.05.05 12:54:08 INFO  time: compiled root in 0.38sMay 05, 2022 12:54:08 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+
+2022.05.05 12:54:09 INFO  compiling root (1 scala source)
+2022.05.05 12:54:11 INFO  time: compiled root in 1.79s
+2022.05.05 12:54:28 INFO  compiling root (1 scala source)
+2022.05.05 12:54:28 INFO  time: compiled root in 0.33s
+May 05, 2022 12:54:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1618
+2022.05.05 12:54:46 INFO  compiling root (1 scala source)
+2022.05.05 12:54:46 INFO  time: compiled root in 0.42s
+2022.05.05 12:54:48 INFO  compiling root (1 scala source)
+2022.05.05 12:54:48 INFO  time: compiled root in 0.44s
+2022.05.05 12:54:49 INFO  compiling root (1 scala source)
+2022.05.05 12:54:49 INFO  time: compiled root in 0.32s
+2022.05.05 12:54:51 INFO  compiling root (1 scala source)
+2022.05.05 12:54:51 INFO  time: compiled root in 0.36s
+2022.05.05 12:55:00 INFO  compiling root (1 scala source)
+2022.05.05 12:55:00 INFO  time: compiled root in 0.3s
+2022.05.05 12:55:02 INFO  compiling root (1 scala source)
+2022.05.05 12:55:02 INFO  time: compiled root in 0.34s
+2022.05.05 12:55:07 INFO  compiling root (1 scala source)
+2022.05.05 12:55:07 INFO  time: compiled root in 0.34s
+2022.05.05 12:55:13 INFO  compiling root (1 scala source)
+2022.05.05 12:55:13 INFO  time: compiled root in 0.15s
+2022.05.05 12:55:14 INFO  compiling root (1 scala source)
+2022.05.05 12:55:14 INFO  time: compiled root in 0.5s
+2022.05.05 12:55:16 INFO  compiling root (1 scala source)
+2022.05.05 12:55:16 INFO  time: compiled root in 0.43s
+2022.05.05 12:55:25 INFO  compiling root (1 scala source)
+2022.05.05 12:55:25 INFO  time: compiled root in 0.39s
+2022.05.05 12:55:27 INFO  compiling root (1 scala source)
+2022.05.05 12:55:27 INFO  time: compiled root in 0.32s
+2022.05.05 12:55:32 INFO  compiling root (1 scala source)
+2022.05.05 12:55:32 INFO  time: compiled root in 0.13s
+2022.05.05 12:55:35 INFO  compiling root (1 scala source)
+2022.05.05 12:55:35 INFO  time: compiled root in 0.35s
+2022.05.05 12:56:08 INFO  compiling root (1 scala source)
+2022.05.05 12:56:08 INFO  time: compiled root in 0.4s
+2022.05.05 12:56:12 INFO  compiling root (1 scala source)
+2022.05.05 12:56:12 INFO  time: compiled root in 0.45s
+2022.05.05 12:56:45 INFO  compiling root (1 scala source)
+2022.05.05 12:56:45 INFO  time: compiled root in 0.44s
+2022.05.05 12:56:47 INFO  compiling root (1 scala source)
+2022.05.05 12:56:47 INFO  time: compiled root in 0.45s
+2022.05.05 12:56:48 INFO  compiling root (1 scala source)
+2022.05.05 12:56:48 INFO  time: compiled root in 0.34s
+2022.05.05 12:56:49 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:22:17: stale bloop error: type mismatch;
+ found   : org.apache.spark.sql.Dataset[org.foodwaste.datagenerator.MockDataGenerator.FoodWasteRecord]
+ required: org.apache.spark.sql.SparkSession
+        DfToCsv(generatedDataDF)
+                ^^^^^^^^^^^^^^^
+2022.05.05 12:56:49 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:50:25: stale bloop error: not found: value src
+            tmpFolder = src/main/resources,
+                        ^^^
+2022.05.05 12:56:49 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:50:29: stale bloop error: missing argument list for method main in object MakeMockData
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `main _` or `main(_)` instead of `main`.
+            tmpFolder = src/main/resources,
+                            ^^^^
+2022.05.05 12:56:49 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:50:34: stale bloop error: not found: value resources
+            tmpFolder = src/main/resources,
+                                 ^^^^^^^^^
+2022.05.05 12:56:49 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:22:17: stale bloop error: type mismatch;
+ found   : org.apache.spark.sql.Dataset[org.foodwaste.datagenerator.MockDataGenerator.FoodWasteRecord]
+ required: org.apache.spark.sql.SparkSession
+        DfToCsv(generatedDataDF)
+                ^^^^^^^^^^^^^^^
+2022.05.05 12:56:49 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:50:25: stale bloop error: not found: value src
+            tmpFolder = src/main/resources,
+                        ^^^
+2022.05.05 12:56:49 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:50:29: stale bloop error: missing argument list for method main in object MakeMockData
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `main _` or `main(_)` instead of `main`.
+            tmpFolder = src/main/resources,
+                            ^^^^
+2022.05.05 12:56:49 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:50:34: stale bloop error: not found: value resources
+            tmpFolder = src/main/resources,
+                                 ^^^^^^^^^
+2022.05.05 12:56:50 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:22:17: stale bloop error: type mismatch;
+ found   : org.apache.spark.sql.Dataset[org.foodwaste.datagenerator.MockDataGenerator.FoodWasteRecord]
+ required: org.apache.spark.sql.SparkSession
+        DfToCsv(generatedDataDF)
+                ^^^^^^^^^^^^^^^
+2022.05.05 12:56:50 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:50:25: stale bloop error: not found: value src
+            tmpFolder = src/main/resources,
+                        ^^^
+2022.05.05 12:56:50 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:50:29: stale bloop error: missing argument list for method main in object MakeMockData
+Unapplied methods are only converted to functions when a function type is expected.
+You can make this conversion explicit by writing `main _` or `main(_)` instead of `main`.
+            tmpFolder = src/main/resources,
+                            ^^^^
+2022.05.05 12:56:50 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:50:34: stale bloop error: not found: value resources
+            tmpFolder = src/main/resources,
+                                 ^^^^^^^^^
+2022.05.05 12:56:50 INFO  compiling root (1 scala source)
+2022.05.05 12:56:50 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:50:25: stale bloop error: unclosed string literal
+            tmpFolder = "src/main/resources,
+                        ^
+2022.05.05 12:56:50 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:50:25: stale bloop error: unclosed string literal
+            tmpFolder = "src/main/resources,
+                        ^
+2022.05.05 12:56:50 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:52:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.05 12:56:50 INFO  time: compiled root in 0.2s
+2022.05.05 12:56:51 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:50:25: stale bloop error: unclosed string literal
+            tmpFolder = "src/main/resources,
+                        ^
+2022.05.05 12:56:51 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:52:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.05 12:56:51 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:50:25: stale bloop error: unclosed string literal
+            tmpFolder = "src/main/resources,
+                        ^
+2022.05.05 12:56:51 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:52:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.05 12:56:52 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:50:25: stale bloop error: unclosed string literal
+            tmpFolder = "src/main/resources,
+                        ^
+2022.05.05 12:56:52 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:52:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.05 12:56:52 INFO  compiling root (1 scala source)
+2022.05.05 12:56:52 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:50:45: stale bloop error: unclosed string literal
+            tmpFolder = "src/main/resources"",
+                                            ^
+2022.05.05 12:56:52 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:50:45: stale bloop error: unclosed string literal
+            tmpFolder = "src/main/resources"",
+                                            ^
+2022.05.05 12:56:52 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:51:72: stale bloop error: ';' expected but ')' found.
+            filename = sys.env("HOME") + "/Documents/better/mydata.csv")
+                                                                       ^
+2022.05.05 12:56:52 INFO  time: compiled root in 0.12s
+2022.05.05 12:56:53 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:50:45: stale bloop error: unclosed string literal
+            tmpFolder = "src/main/resources"",
+                                            ^
+2022.05.05 12:56:53 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:51:72: stale bloop error: ';' expected but ')' found.
+            filename = sys.env("HOME") + "/Documents/better/mydata.csv")
+                                                                       ^
+2022.05.05 12:56:53 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:50:45: stale bloop error: unclosed string literal
+            tmpFolder = "src/main/resources"",
+                                            ^
+2022.05.05 12:56:53 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:51:72: stale bloop error: ';' expected but ')' found.
+            filename = sys.env("HOME") + "/Documents/better/mydata.csv")
+                                                                       ^
+2022.05.05 12:56:54 INFO  compiling root (1 scala source)
+2022.05.05 12:56:54 INFO  time: compiled root in 0.27s
+2022.05.05 12:56:57 INFO  compiling root (1 scala source)
+2022.05.05 12:56:57 INFO  time: compiled root in 0.32s
+2022.05.05 12:57:00 INFO  compiling root (1 scala source)
+2022.05.05 12:57:00 INFO  time: compiled root in 0.33s
+2022.05.05 12:57:03 INFO  compiling root (1 scala source)
+2022.05.05 12:57:03 INFO  time: compiled root in 0.26s
+2022.05.05 12:57:09 INFO  compiling root (1 scala source)
+2022.05.05 12:57:09 INFO  time: compiled root in 0.43s
+2022.05.05 12:57:12 INFO  compiling root (1 scala source)
+2022.05.05 12:57:12 INFO  time: compiled root in 0.53s
+2022.05.05 12:58:19 INFO  compiling root (1 scala source)
+2022.05.05 12:58:19 INFO  time: compiled root in 0.14s
+2022.05.05 12:58:25 INFO  compiling root (1 scala source)
+2022.05.05 12:58:25 INFO  time: compiled root in 0.14s
+2022.05.05 12:58:31 INFO  compiling root (1 scala source)
+2022.05.05 12:58:31 INFO  time: compiled root in 0.12s
+2022.05.05 12:58:37 INFO  compiling root (1 scala source)
+2022.05.05 12:58:37 INFO  time: compiled root in 0.12s
+2022.05.05 12:58:41 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:52:5: stale bloop error: illegal start of simple expression
+    }
+    ^
+2022.05.05 12:58:41 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:52:5: stale bloop error: illegal start of simple expression
+    }
+    ^
+2022.05.05 12:58:41 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:52:5: stale bloop error: illegal start of simple expression
+    }
+    ^
+2022.05.05 12:58:41 INFO  compiling root (1 scala source)
+2022.05.05 12:58:41 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:51:24: stale bloop error: unclosed string literal
+            filename = "src/main/resources/mock_data_output/mockdata.csv,
+                       ^
+2022.05.05 12:58:41 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:51:24: stale bloop error: unclosed string literal
+            filename = "src/main/resources/mock_data_output/mockdata.csv,
+                       ^
+2022.05.05 12:58:41 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:52:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.05 12:58:41 INFO  time: compiled root in 0.13s
+2022.05.05 12:58:42 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:51:24: stale bloop error: unclosed string literal
+            filename = "src/main/resources/mock_data_output/mockdata.csv,
+                       ^
+2022.05.05 12:58:42 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:52:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.05 12:58:42 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:51:24: stale bloop error: unclosed string literal
+            filename = "src/main/resources/mock_data_output/mockdata.csv,
+                       ^
+2022.05.05 12:58:42 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:52:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.05 12:58:42 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:51:24: stale bloop error: unclosed string literal
+            filename = "src/main/resources/mock_data_output/mockdata.csv,
+                       ^
+2022.05.05 12:58:42 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:52:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.05 12:58:42 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:51:24: stale bloop error: unclosed string literal
+            filename = "src/main/resources/mock_data_output/mockdata.csv,
+                       ^
+2022.05.05 12:58:42 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:52:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.05 12:58:43 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:51:24: stale bloop error: unclosed string literal
+            filename = "src/main/resources/mock_data_output/mockdata.csv,
+                       ^
+2022.05.05 12:58:43 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:52:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.05 12:58:43 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:51:24: stale bloop error: unclosed string literal
+            filename = "src/main/resources/mock_data_output/mockdata.csv,
+                       ^
+2022.05.05 12:58:43 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:52:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.05 12:58:44 INFO  compiling root (1 scala source)
+2022.05.05 12:58:44 INFO  time: compiled root in 0.57s
+2022.05.05 12:59:14 INFO  compiling root (1 scala source)
+2022.05.05 12:59:14 INFO  time: compiled root in 0.41s
+2022.05.05 13:00:00 INFO  compiling root (1 scala source)
+2022.05.05 13:00:00 INFO  time: compiled root in 0.28s
+2022.05.05 13:00:02 INFO  compiling root (1 scala source)
+2022.05.05 13:00:04 INFO  time: compiled root in 2.19s
+2022.05.05 13:02:45 INFO  compiling root (1 scala source)
+2022.05.05 13:02:46 INFO  time: compiled root in 1.08s
+2022.05.05 13:02:46 INFO  compiling root (1 scala source)
+2022.05.05 13:02:46 INFO  time: compiled root in 0.29s
+2022.05.05 13:02:56 INFO  compiling root (1 scala source)
+2022.05.05 13:02:59 INFO  time: compiled root in 2.31s

@@ -1,4 +1,4 @@
-[debug] [small-business-food-waste-reduction-build-build] Classpath dependencies List()
-[debug] [small-business-food-waste-reduction-build-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'small-business-food-waste-reduction-build-build' to '/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/project/project/.bloop/small-business-food-waste-reduction-build-build.json'
-[success] Generated .bloop/small-business-food-waste-reduction-build-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[small-business-food-waste-reduction-build-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[small-business-food-waste-reduction-build-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'small-business-food-waste-reduction-build-build' to '/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/project/project/.bloop/small-business-food-waste-reduction-build-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/small-business-food-waste-reduction-build-build.json[0m

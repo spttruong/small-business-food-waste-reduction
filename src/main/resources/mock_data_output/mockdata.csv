@@ -1,0 +1,100 @@
+12/7/2021 5:20:19,Christy,104,Meat,Pre-consumer,Contamination,134
+4/3/2021 4:35:14,Christy,102,Deli,Pre-consumer,Contamination,7
+7/11/2021 2:47:49,Bryan,103,Canned Good & Soups,Pre-consumer,Contamination,298
+11/18/2020 23:56:19,Bryan,102,Breafast & Cereal,Pre-consumer,Expiration,162
+3/24/2021 10:33:13,Emma,104,Bread & Bakery,Pre-consumer,Storage Failure,293
+9/7/2021 10:37:51,Bryan,105,"Cookies, Snacks & Candy",Pre-consumer,Expiration,90
+10/31/2021 22:2:4,Bryan,100,Grains & Pasta,Pre-consumer,Excess/over-order,51
+7/26/2020 4:34:26,Steve,101,"Beer, Wine & Spirits",Pre-consumer,Excess/over-order,82
+4/16/2020 9:47:12,Steve,103,"Cookies, Snacks & Candy",Pre-consumer,Storage Failure,145
+1/11/2021 18:53:11,Steve,100,Bread & Bakery,Pre-consumer,Improper Storage,127
+10/26/2021 1:24:8,Steve,104,Breafast & Cereal,Pre-consumer,Contamination,191
+1/10/2020 8:31:16,Christy,104,Breafast & Cereal,Pre-consumer,Expiration,8
+1/20/2020 0:32:34,Danielle,102,Prepared Meal,Post-consumer,Customer Meal Disposal,267
+2/7/2020 18:14:19,Bryan,104,Breafast & Cereal,Pre-consumer,Improper Storage,140
+7/24/2020 1:28:22,Christy,102,Beverages,Pre-consumer,Contamination,241
+5/24/2020 8:22:5,Danielle,102,"Cookies, Snacks & Candy",Pre-consumer,Excess/over-order,103
+5/14/2020 23:8:53,Emma,105,Bread & Bakery,Pre-consumer,Improper Storage,179
+12/13/2020 4:35:24,Bryan,105,"Beer, Wine & Spirits",Pre-consumer,Improper Storage,174
+10/18/2021 0:36:51,Bryan,101,Frozen Foods,Pre-consumer,Improper Storage,114
+11/14/2021 20:2:38,Bryan,100,Condiments/Spices & Bake,Pre-consumer,Improper Storage,40
+12/13/2021 7:11:15,Danielle,101,Beverages,Pre-consumer,Contamination,158
+11/21/2020 8:39:7,Joe,101,Deli,Pre-consumer,Expiration,245
+6/21/2021 3:1:54,Steve,100,Deli,Pre-consumer,Improper Storage,36
+9/26/2020 14:10:21,Joe,102,Bread & Bakery,Pre-consumer,Expiration,107
+2/4/2021 7:14:20,Steve,100,Seafood,Pre-consumer,Storage Failure,105
+12/3/2020 23:18:12,Danielle,105,Prepared Meal,Post-consumer,Customer Meal Disposal,189
+10/7/2021 18:12:10,Bryan,103,Condiments/Spices & Bake,Pre-consumer,Expiration,111
+5/17/2021 9:30:41,Christy,101,Seafood,Pre-consumer,Excess/over-order,143
+4/13/2020 6:40:4,Danielle,102,"Dairy, Eggs & Cheese",Pre-consumer,Storage Failure,52
+4/5/2020 2:11:38,Danielle,102,Produce: Fruits and Vegetables,Pre-consumer,Improper Storage,159
+9/3/2021 8:9:18,Joe,102,"Beer, Wine & Spirits",Pre-consumer,Storage Failure,46
+12/28/2020 21:11:47,Danielle,105,"Cookies, Snacks & Candy",Pre-consumer,Improper Storage,255
+9/9/2020 3:5:17,Danielle,102,"Beer, Wine & Spirits",Pre-consumer,Improper Storage,77
+2/6/2020 4:27:44,Steve,103,Seafood,Pre-consumer,Expiration,19
+6/23/2021 9:45:57,Christy,102,Canned Good & Soups,Pre-consumer,Improper Storage,309
+8/8/2021 13:43:14,Emma,103,Beverages,Pre-consumer,Improper Storage,206
+2/17/2020 17:17:27,Bryan,105,Prepared Meal,Post-consumer,Customer Meal Disposal,90
+11/26/2020 18:37:57,Christy,103,"Cookies, Snacks & Candy",Pre-consumer,Contamination,168
+4/22/2020 4:33:0,Bryan,103,"Beer, Wine & Spirits",Pre-consumer,Expiration,187
+5/22/2020 23:8:30,Bryan,105,Deli,Pre-consumer,Excess/over-order,242
+3/9/2021 0:8:26,Christy,102,Meat,Pre-consumer,Expiration,59
+4/22/2020 7:45:8,Bryan,103,Canned Good & Soups,Pre-consumer,Improper Storage,157
+12/13/2020 7:35:10,Steve,101,Beverages,Pre-consumer,Storage Failure,277
+2/17/2020 13:51:6,Danielle,101,"Dairy, Eggs & Cheese",Pre-consumer,Storage Failure,62
+2/13/2020 11:50:16,Christy,105,Seafood,Pre-consumer,Expiration,115
+7/25/2020 22:24:49,Danielle,104,Deli,Pre-consumer,Expiration,255
+1/26/2021 11:36:27,Bryan,101,Beverages,Pre-consumer,Excess/over-order,174
+7/12/2020 8:50:33,Danielle,100,Deli,Pre-consumer,Improper Storage,244
+2/5/2021 15:25:19,Christy,105,Canned Good & Soups,Pre-consumer,Storage Failure,310
+11/26/2021 21:12:56,Emma,103,"Dairy, Eggs & Cheese",Pre-consumer,Contamination,174
+5/10/2020 8:9:41,Bryan,102,Deli,Pre-consumer,Contamination,58
+7/2/2020 18:36:35,Danielle,102,Condiments/Spices & Bake,Pre-consumer,Storage Failure,131
+12/9/2020 5:1:14,Joe,100,"Dairy, Eggs & Cheese",Pre-consumer,Excess/over-order,215
+1/21/2020 3:28:52,Steve,105,Seafood,Pre-consumer,Expiration,201
+3/17/2020 5:9:19,Steve,100,Meat,Pre-consumer,Excess/over-order,97
+12/10/2020 10:36:56,Joe,104,Frozen Foods,Pre-consumer,Contamination,63
+1/10/2021 4:18:57,Danielle,100,Canned Good & Soups,Pre-consumer,Contamination,63
+12/29/2020 10:31:55,Bryan,102,"Cookies, Snacks & Candy",Pre-consumer,Expiration,31
+8/29/2021 14:19:42,Danielle,103,Frozen Foods,Pre-consumer,Contamination,264
+5/19/2021 22:4:57,Bryan,104,"Beer, Wine & Spirits",Pre-consumer,Storage Failure,283
+3/5/2020 11:25:29,Bryan,103,"Beer, Wine & Spirits",Pre-consumer,Contamination,192
+11/20/2020 11:17:57,Emma,105,Seafood,Pre-consumer,Contamination,249
+12/23/2020 10:48:7,Emma,103,Prepared Meal,Post-consumer,Customer Meal Disposal,78
+11/11/2021 19:26:53,Emma,100,Beverages,Pre-consumer,Expiration,299
+4/3/2020 7:52:41,Steve,100,Meat,Pre-consumer,Improper Storage,160
+5/31/2021 15:17:46,Joe,100,Meat,Pre-consumer,Expiration,22
+1/1/2020 4:11:47,Danielle,100,Deli,Pre-consumer,Improper Storage,307
+5/15/2021 14:12:37,Steve,105,"Cookies, Snacks & Candy",Pre-consumer,Storage Failure,289
+1/8/2020 7:56:14,Christy,100,Produce: Fruits and Vegetables,Pre-consumer,Improper Storage,25
+4/24/2021 3:33:58,Joe,103,Condiments/Spices & Bake,Pre-consumer,Excess/over-order,277
+3/28/2021 23:29:1,Bryan,100,"Beer, Wine & Spirits",Pre-consumer,Expiration,59
+5/31/2020 16:57:29,Bryan,104,Breafast & Cereal,Pre-consumer,Expiration,165
+7/2/2021 11:43:45,Emma,103,Frozen Foods,Pre-consumer,Expiration,108
+1/15/2021 7:13:32,Emma,104,Canned Good & Soups,Pre-consumer,Excess/over-order,62
+8/24/2021 1:1:40,Christy,103,Seafood,Pre-consumer,Contamination,211
+11/29/2020 19:19:1,Danielle,101,Seafood,Pre-consumer,Excess/over-order,87
+11/25/2020 14:15:58,Emma,104,Bread & Bakery,Pre-consumer,Contamination,85
+12/3/2021 2:9:22,Emma,105,Prepared Meal,Post-consumer,Customer Meal Disposal,111
+10/28/2020 1:59:21,Christy,103,Canned Good & Soups,Pre-consumer,Excess/over-order,279
+12/25/2020 7:16:30,Bryan,103,Breafast & Cereal,Pre-consumer,Excess/over-order,219
+9/2/2020 17:20:12,Emma,102,Frozen Foods,Pre-consumer,Excess/over-order,99
+2/7/2021 22:58:15,Christy,103,"Cookies, Snacks & Candy",Pre-consumer,Excess/over-order,304
+9/24/2021 3:25:29,Joe,102,Produce: Fruits and Vegetables,Pre-consumer,Excess/over-order,189
+2/17/2020 10:21:52,Steve,100,Condiments/Spices & Bake,Pre-consumer,Improper Storage,74
+5/11/2021 3:55:13,Emma,105,"Dairy, Eggs & Cheese",Pre-consumer,Expiration,267
+5/7/2020 4:25:4,Steve,102,Deli,Pre-consumer,Excess/over-order,5
+10/19/2021 18:52:16,Christy,102,Grains & Pasta,Pre-consumer,Storage Failure,176
+11/25/2021 3:13:11,Danielle,103,Meat,Pre-consumer,Expiration,320
+3/4/2021 8:41:51,Joe,100,Meat,Pre-consumer,Storage Failure,269
+11/6/2021 6:16:58,Joe,101,"Beer, Wine & Spirits",Pre-consumer,Expiration,289
+9/26/2021 18:45:24,Bryan,100,"Dairy, Eggs & Cheese",Pre-consumer,Improper Storage,259
+3/22/2021 16:55:50,Bryan,101,Grains & Pasta,Pre-consumer,Storage Failure,135
+7/26/2021 21:46:58,Christy,101,"Dairy, Eggs & Cheese",Pre-consumer,Expiration,280
+5/19/2021 9:59:9,Christy,103,Frozen Foods,Pre-consumer,Expiration,298
+9/21/2021 20:28:43,Steve,103,Meat,Pre-consumer,Improper Storage,172
+10/2/2021 19:36:57,Christy,104,Bread & Bakery,Pre-consumer,Excess/over-order,168
+12/20/2020 21:57:21,Steve,101,Grains & Pasta,Pre-consumer,Excess/over-order,297
+9/2/2020 11:53:19,Danielle,100,Produce: Fruits and Vegetables,Pre-consumer,Improper Storage,184
+5/8/2020 3:38:56,Danielle,104,Deli,Pre-consumer,Expiration,29
+7/23/2021 21:8:3,Bryan,100,Prepared Meal,Post-consumer,Customer Meal Disposal,187
