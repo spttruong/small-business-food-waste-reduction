@@ -31,6 +31,7 @@
             "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-laws_2.13/2.6.1/cats-laws_2.13-2.6.1.jar",
             "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-testkit-scalatest_2.13/2.1.5/cats-testkit-scalatest_2.13-2.1.5.jar",
             "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/alexarchambault/scalacheck-shapeless_1.15_2.13/1.3.0/scalacheck-shapeless_1.15_2.13-1.3.0.jar",
+            "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/kontainers/purecsv_2.13/1.3.10/purecsv_2.13-1.3.10.jar",
             "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.6.1/cats-kernel_2.13-2.6.1.jar",
             "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.13/0.5.4/simulacrum-scalafix-annotations_2.13-0.5.4.jar",
             "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_2.13/0.13.0/circe-numbers_2.13-0.13.0.jar",
@@ -72,6 +73,7 @@
             "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/discipline-core_2.13/1.1.5/discipline-core_2.13-1.1.5.jar",
             "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/discipline-scalatest_2.13/2.1.5/discipline-scalatest_2.13-2.1.5.jar",
             "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalacheck/scalacheck_2.13/1.15.4/scalacheck_2.13-1.15.4.jar",
+            "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/tototoshi/scala-csv_2.13/1.3.10/scala-csv_2.13-1.3.10.jar",
             "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.0.0/jawn-parser_2.13-1.0.0.jar",
             "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar",
             "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-generic-base_2.13/0.15.0/pureconfig-generic-base_2.13-0.15.0.jar",
@@ -415,6 +417,23 @@
                     ]
                 },
                 {
+                    "organization": "org.apache.spark",
+                    "name": "spark-sql_2.13",
+                    "version": "3.2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "spark-sql_2.13",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.2.1/spark-sql_2.13-3.2.1.jar"
+                        },
+                        {
+                            "name": "spark-sql_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.2.1/spark-sql_2.13-3.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.typesafe.scala-logging",
                     "name": "scala-logging_2.13",
                     "version": "3.9.2",
@@ -449,6 +468,23 @@
                     ]
                 },
                 {
+                    "organization": "io.kontainers",
+                    "name": "purecsv_2.13",
+                    "version": "1.3.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "purecsv_2.13",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/kontainers/purecsv_2.13/1.3.10/purecsv_2.13-1.3.10.jar"
+                        },
+                        {
+                            "name": "purecsv_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/kontainers/purecsv_2.13/1.3.10/purecsv_2.13-1.3.10-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "io.circe",
                     "name": "circe-numbers_2.13",
                     "version": "0.13.0",
@@ -462,6 +498,23 @@
                             "name": "circe-numbers_2.13",
                             "classifier": "sources",
                             "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_2.13/0.13.0/circe-numbers_2.13-0.13.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.chuusai",
+                    "name": "shapeless_2.13",
+                    "version": "2.3.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "shapeless_2.13",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.7/shapeless_2.13-2.3.7.jar"
+                        },
+                        {
+                            "name": "shapeless_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.7/shapeless_2.13-2.3.7-sources.jar"
                         }
                     ]
                 },
@@ -513,108 +566,6 @@
                             "name": "pureconfig-generic_2.13",
                             "classifier": "sources",
                             "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-generic_2.13/0.15.0/pureconfig-generic_2.13-0.15.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scala-lang",
-                    "name": "scala-reflect",
-                    "version": "2.13.6",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-reflect",
-                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar"
-                        },
-                        {
-                            "name": "scala-reflect",
-                            "classifier": "sources",
-                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "ch.qos.logback",
-                    "name": "logback-core",
-                    "version": "1.2.3",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "logback-core",
-                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"
-                        },
-                        {
-                            "name": "logback-core",
-                            "classifier": "sources",
-                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.typelevel",
-                    "name": "jawn-parser_2.13",
-                    "version": "1.0.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "jawn-parser_2.13",
-                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.0.0/jawn-parser_2.13-1.0.0.jar"
-                        },
-                        {
-                            "name": "jawn-parser_2.13",
-                            "classifier": "sources",
-                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.0.0/jawn-parser_2.13-1.0.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.typesafe",
-                    "name": "config",
-                    "version": "1.4.1",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "config",
-                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar"
-                        },
-                        {
-                            "name": "config",
-                            "classifier": "sources",
-                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.github.pureconfig",
-                    "name": "pureconfig-generic-base_2.13",
-                    "version": "0.15.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "pureconfig-generic-base_2.13",
-                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-generic-base_2.13/0.15.0/pureconfig-generic-base_2.13-0.15.0.jar"
-                        },
-                        {
-                            "name": "pureconfig-generic-base_2.13",
-                            "classifier": "sources",
-                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-generic-base_2.13/0.15.0/pureconfig-generic-base_2.13-0.15.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.apache.spark",
-                    "name": "spark-sql_2.13",
-                    "version": "3.2.1",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "spark-sql_2.13",
-                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.2.1/spark-sql_2.13-3.2.1.jar"
-                        },
-                        {
-                            "name": "spark-sql_2.13",
-                            "classifier": "sources",
-                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.13/3.2.1/spark-sql_2.13-3.2.1-sources.jar"
                         }
                     ]
                 },
@@ -857,6 +808,23 @@
                     ]
                 },
                 {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.6/scala-reflect-2.13.6-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.slf4j",
                     "name": "slf4j-api",
                     "version": "1.7.30",
@@ -870,6 +838,91 @@
                             "name": "slf4j-api",
                             "classifier": "sources",
                             "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "1.2.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.tototoshi",
+                    "name": "scala-csv_2.13",
+                    "version": "1.3.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-csv_2.13",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/tototoshi/scala-csv_2.13/1.3.10/scala-csv_2.13-1.3.10.jar"
+                        },
+                        {
+                            "name": "scala-csv_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/tototoshi/scala-csv_2.13/1.3.10/scala-csv_2.13-1.3.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "jawn-parser_2.13",
+                    "version": "1.0.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jawn-parser_2.13",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.0.0/jawn-parser_2.13-1.0.0.jar"
+                        },
+                        {
+                            "name": "jawn-parser_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_2.13/1.0.0/jawn-parser_2.13-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "config",
+                    "version": "1.4.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "config",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "sources",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.pureconfig",
+                    "name": "pureconfig-generic-base_2.13",
+                    "version": "0.15.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "pureconfig-generic-base_2.13",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-generic-base_2.13/0.15.0/pureconfig-generic-base_2.13-0.15.0.jar"
+                        },
+                        {
+                            "name": "pureconfig-generic-base_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/pureconfig/pureconfig-generic-base_2.13/0.15.0/pureconfig-generic-base_2.13-0.15.0-sources.jar"
                         }
                     ]
                 },
@@ -2943,23 +2996,6 @@
                     ]
                 },
                 {
-                    "organization": "com.chuusai",
-                    "name": "shapeless_2.13",
-                    "version": "2.3.7",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "shapeless_2.13",
-                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.7/shapeless_2.13-2.3.7.jar"
-                        },
-                        {
-                            "name": "shapeless_2.13",
-                            "classifier": "sources",
-                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/chuusai/shapeless_2.13/2.3.7/shapeless_2.13-2.3.7-sources.jar"
-                        }
-                    ]
-                },
-                {
                     "organization": "org.scalatest",
                     "name": "scalatest-core_2.13",
                     "version": "3.2.9",
@@ -3249,6 +3285,23 @@
                     ]
                 },
                 {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.13",
+                    "version": "1.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.13",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.scalatest",
                     "name": "scalatest-compatible",
                     "version": "3.2.9",
@@ -3279,23 +3332,6 @@
                             "name": "scalactic_2.13",
                             "classifier": "sources",
                             "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.13/3.2.9/scalactic_2.13-3.2.9-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scala-lang.modules",
-                    "name": "scala-xml_2.13",
-                    "version": "1.3.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-xml_2.13",
-                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0.jar"
-                        },
-                        {
-                            "name": "scala-xml_2.13",
-                            "classifier": "sources",
-                            "path": "/Users/steventruong/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.13/1.3.0/scala-xml_2.13-1.3.0-sources.jar"
                         }
                     ]
                 },

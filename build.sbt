@@ -7,7 +7,7 @@ ThisBuild / semanticdbVersion := scalafixSemanticdb.revision // use Scalafix com
 
 lazy val root = (project in file(".")).
   settings(
-    name := "2022SpringScalaIntro",
+    name := "FoodWasteProject",
     scalacOptions ++= Seq(
       "-feature",
       "-deprecation",
@@ -16,7 +16,7 @@ lazy val root = (project in file(".")).
       "-language:higherKinds", // HKT required for Monads and other HKT types
       "-Wunused", // for scalafix
     ),
-    libraryDependencies ++= Dependencies.core ++ Dependencies.scalaTest,
+    libraryDependencies ++= Dependencies.core ++ Dependencies.scalaTest ++ Dependencies.extra,
     assembly / mainClass := Some("org.foodwaste.wastemetrics.SparkFoodWasteAggregateJob"),
     assembly / assemblyJarName := "FoodWasteAggregatorSparkJob.jar",
     assembly / test := {},

@@ -1,0 +1,23 @@
+[0m[[0m[33mwarn[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/config/AppConfig.scala:7:19: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport pureconfig._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/config/AppConfig.scala:8:32: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport pureconfig.generic.auto._[0m
+[0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataToCsv.scala:3:29: Unused import[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.foodwaste.config.ConfigUtils[0m
+[0m[[0m[33mwarn[0m] [0m[0m                            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataToCsv.scala:13:13: local val generatedData in method main is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m        val generatedData = mockDataStream.take(args(0).toInt).toList[0m
+[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataToCsv.scala:16:19: parameter value dataList in method listToCsv is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m    def listToCsv(dataList: List[MockDataGenerator.FoodWasteRecord]): Unit = {[0m
+[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
+[0m[[0m[0minfo[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:1:1: [0m
+[0m[[0m[0minfo[0m] [0m[0mFound names but no class, trait or object is defined in the compilation unit.[0m
+[0m[[0m[0minfo[0m] [0m[0mThe incremental compiler cannot record the dependency information in such case.[0m
+[0m[[0m[0minfo[0m] [0m[0mSome errors like unused import referring to a non-existent class might not be reported.[0m
+[0m[[0m[0minfo[0m] [0m[0m    [0m
+[0m[[0m[0minfo[0m] [0m[0mpackage org.foodwaste.wastemetrics[0m
+[0m[[0m[0minfo[0m] [0m[0m^[0m
+[0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m

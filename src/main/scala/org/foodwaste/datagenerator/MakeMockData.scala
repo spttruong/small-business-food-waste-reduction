@@ -2,7 +2,7 @@ package org.foodwaste.datagenerator
 
 import org.foodwaste.datagenerator.MockDataGenerator
 import org.foodwaste.datagenerator.MockDataGenerator.FoodWasteRecord
-import com.typesafe.scalalogging.{LazyLogging}
+// import com.typesafe.scalalogging.{LazyLogging}
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.{Dataset}
 import org.foodwaste.utils.SparkUtils
@@ -31,6 +31,6 @@ object MakeMockData {
     }
 
     def DfToCsv(ds: Dataset[FoodWasteRecord]): Unit = {
-        ds.coalesce(1).write.csv("src/main/resources/sample-food-waste-records.csv")
+        ds.coalesce(1).write.csv("src/main/resources/sample-food-waste-records/")
     }
 }
