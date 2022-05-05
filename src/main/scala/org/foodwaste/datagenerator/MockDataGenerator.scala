@@ -1,9 +1,12 @@
 package org.foodwaste.datagenerator
 
 import scala.util.Random
+import scala.collection.immutable.LazyList
 
 object MockDataGenerator {
-    val rnd = new Random()
+    
+
+    val rnd = new Random
 
     case class FoodWasteRecord(
         timestamp: String,
@@ -15,8 +18,12 @@ object MockDataGenerator {
         quantity: Int
     )
 
-    def getRandomElement[A](seq: Seq[A], random: Random): A = 
-        seq(random.nextInt(seq.length))
+    def getRandomElement[A](seq: Seq[A], rnd: Random): A = 
+        seq(rnd.nextInt(seq.length))
+
+    def randomIntBetween(start: Int, end: Int)(rnd: Random): Int = {
+        start + rnd.nextInt( (end - start) + 1 ) 
+    }
 
     val randDateTime: String  = {
         val randMonth = rnd.between(1,13)
@@ -90,3 +97,4 @@ object MockDataGenerator {
                         randQuantity)
     }
 }
+

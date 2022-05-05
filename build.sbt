@@ -17,7 +17,7 @@ lazy val root = (project in file(".")).
       "-Wunused", // for scalafix
     ),
     libraryDependencies ++= Dependencies.core ++ Dependencies.scalaTest,
-    assembly / mainClass := Some("org.foodwaste.waste-metrics.SparkFoodWasteAggregateJob"),
+    assembly / mainClass := Some("org.foodwaste.wastemetrics.SparkFoodWasteAggregateJob"),
     assembly / assemblyJarName := "FoodWasteAggregatorSparkJob.jar",
     assembly / test := {},
     assembly / assemblyMergeStrategy := {

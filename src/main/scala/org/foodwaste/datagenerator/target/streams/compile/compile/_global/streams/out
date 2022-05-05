@@ -1,0 +1,68 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:5:12: object typesafe is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.typesafe.scalalogging.{LazyLogging}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:6:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:7:12: object apache is not a member of package org[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.{Dataset}[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:8:22: object utils is not a member of package org.foodwaste[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.foodwaste.utils.SparkUtils[0m
+[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:8:12: object LazyList is not a member of package scala.collection.immutable[0m
+[0m[[0m[31merror[0m] [0m[0m    import scala.collection.immutable.LazyList[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:83:19: not found: type LazyList[0m
+[0m[[0m[31merror[0m] [0m[0m    val mockData: LazyList[FoodWasteRecord] = LazyList.continually {[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:17:21: not found: value SparkUtils[0m
+[0m[[0m[31merror[0m] [0m[0m        val spark = SparkUtils.sparkSession("spark-food-waste-records-generator", "local[*]")[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:24:73: not found: type Dataset[0m
+[0m[[0m[31merror[0m] [0m[0m    def listToDs(spark: SparkSession)(dataList: List[FoodWasteRecord]): Dataset[FoodWasteRecord] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:24:25: not found: type SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    def listToDs(spark: SparkSession)(dataList: List[FoodWasteRecord]): Dataset[FoodWasteRecord] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:33:21: not found: type Dataset[0m
+[0m[[0m[31merror[0m] [0m[0m    def DfToCsv(ds: Dataset[FoodWasteRecord]): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MakeMockData.scala:3:36: imported `MockDataGenerator` is permanently hidden by definition of object MockDataGenerator in package datagenerator[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport org.foodwaste.datagenerator.MockDataGenerator[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:26:29: value between is not a member of scala.util.Random[0m
+[0m[[0m[31merror[0m] [0m[0m        val randMonth = rnd.between(1,13)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:28:54: value between is not a member of scala.util.Random[0m
+[0m[[0m[31merror[0m] [0m[0m            case 1 | 3 | 5 | 7 | 8 | 10 | 12  => rnd.between(1,32) // 1 to 31[0m
+[0m[[0m[31merror[0m] [0m[0m                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:29:28: value between is not a member of scala.util.Random[0m
+[0m[[0m[31merror[0m] [0m[0m            case 2  => rnd.between(1,29) // 1 to 28, doesn't account for leap years[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:30:40: value between is not a member of scala.util.Random[0m
+[0m[[0m[31merror[0m] [0m[0m            case 4 | 6 | 9 | 11 => rnd.between(1,31) // 1 to 30[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:32:28: value between is not a member of scala.util.Random[0m
+[0m[[0m[31merror[0m] [0m[0m        val randYear = rnd.between(2020,2022) // up to 2021[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:33:29: value between is not a member of scala.util.Random[0m
+[0m[[0m[31merror[0m] [0m[0m        val randHours = rnd.between(0,24) // up to 23 hours[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:34:31: value between is not a member of scala.util.Random[0m
+[0m[[0m[31merror[0m] [0m[0m        val randMinutes = rnd.between(0,60) // up to 59 mins[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:35:31: value between is not a member of scala.util.Random[0m
+[0m[[0m[31merror[0m] [0m[0m        val randSeconds = rnd.between(0,60) // up to 59 seconds[0m
+[0m[[0m[31merror[0m] [0m[0m                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:67:27: value between is not a member of scala.util.Random[0m
+[0m[[0m[31merror[0m] [0m[0m    val randStoreId = rnd.between(100,106) // 5 stores[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:81:28: value between is not a member of scala.util.Random[0m
+[0m[[0m[31merror[0m] [0m[0m    val randQuantity = rnd.between(1,321) // max 20 lbs (320 oz)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:83:47: not found: value LazyList[0m
+[0m[[0m[31merror[0m] [0m[0m    val mockData: LazyList[FoodWasteRecord] = LazyList.continually {[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m21 errors found[0m
