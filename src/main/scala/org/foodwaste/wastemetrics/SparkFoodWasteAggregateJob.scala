@@ -3,7 +3,7 @@ package org.foodwaste.wastemetrics
 import org.apache.spark.sql.SparkSession
 import org.foodwaste.config.{ConfigUtils}
 import org.foodwaste.utils.{SparkUtils}
-import org.apache.spark.sql.{Dataset, DataFrame, Row}
+import org.apache.spark.sql.DataFrame
 import pureconfig.generic.auto._
 import com.github.mrpowers.spark.daria.sql.DariaWriters.writeSingleFile
 import scala.io.StdIn.readLine
@@ -12,7 +12,6 @@ case class SparkFoodWasteAggregateJobConfig(
     name: String,
     masterUrl: String,
     inputPathFile: String,
-    outputPathTmp: String,
     outputPathCsv: String,
     outputPathParquet: String
 )
@@ -30,6 +29,7 @@ object SparkFoodWasteAggregateJob {
     def runJob(spark: SparkSession)(implicit conf: SparkFoodWasteAggregateJobConfig): Unit = {
         val records = loadData(spark)
         val dateSplit = splitDate(records)
+        dateSplit.show()
 
         print("Would you like to filter by year? (y/n): ")
         val response1 = readLine()
@@ -62,11 +62,11 @@ object SparkFoodWasteAggregateJob {
                 val aggregateQuantityByLoss = aggregateByLossReason(preConsumerWasteRecords)
 
                 // create output CSV files
-                DfToCsv(spark, aggregateQuantity, "aggregateQuantity.csv")
-                DfToCsv(spark, preConsumerWasteRecords, "preConsumerWasteRecords.csv")
-                DfToCsv(spark, postConsumerWasteRecords, "postConsumerWasteRecords.csv")
-                DfToCsv(spark, aggregateQuantityByFood, "aggregateQuantityByFood.csv")
-                DfToCsv(spark, aggregateQuantityByLoss, "aggregateQuantityByLoss.csv")
+                DfToCsv(spark, aggregateQuantity, "aggregateQuantity")
+                DfToCsv(spark, preConsumerWasteRecords, "preConsumerWasteRecords")
+                DfToCsv(spark, postConsumerWasteRecords, "postConsumerWasteRecords")
+                DfToCsv(spark, aggregateQuantityByFood, "aggregateQuantityByFood")
+                DfToCsv(spark, aggregateQuantityByLoss, "aggregateQuantityByLoss")
             } 
             // responded yes to year, but no to month
             else if (response2.toLowerCase.matches("n") | response2.toLowerCase.matches("no")) {
@@ -76,11 +76,11 @@ object SparkFoodWasteAggregateJob {
                 val aggregateQuantityByFood = aggregateByFoodCategory(recordsByYear)
                 val aggregateQuantityByLoss = aggregateByLossReason(recordsByYear)
 
-                DfToCsv(spark, aggregateQuantity, "aggregateQuantity.csv")
-                DfToCsv(spark, preConsumerWasteRecords, "preConsumerWasteRecords.csv")
-                DfToCsv(spark, postConsumerWasteRecords, "postConsumerWasteRecords.csv")
-                DfToCsv(spark, aggregateQuantityByFood, "aggregateQuantityByFood.csv")
-                DfToCsv(spark, aggregateQuantityByLoss, "aggregateQuantityByLoss.csv")
+                DfToCsv(spark, aggregateQuantity, "aggregateQuantity")
+                DfToCsv(spark, preConsumerWasteRecords, "preConsumerWasteRecords")
+                DfToCsv(spark, postConsumerWasteRecords, "postConsumerWasteRecords")
+                DfToCsv(spark, aggregateQuantityByFood, "aggregateQuantityByFood")
+                DfToCsv(spark, aggregateQuantityByLoss, "aggregateQuantityByLoss")
             }
             else {
                 println("invalid response")
@@ -95,11 +95,11 @@ object SparkFoodWasteAggregateJob {
             val aggregateQuantityByFood = aggregateByFoodCategory(records)
             val aggregateQuantityByLoss = aggregateByLossReason(records)
 
-            DfToCsv(spark, aggregateQuantity, "aggregateQuantity.csv")
-            DfToCsv(spark, preConsumerWasteRecords, "preConsumerWasteRecords.csv")
-            DfToCsv(spark, postConsumerWasteRecords, "postConsumerWasteRecords.csv")
-            DfToCsv(spark, aggregateQuantityByFood, "aggregateQuantityByFood.csv")
-            DfToCsv(spark, aggregateQuantityByLoss, "aggregateQuantityByLoss.csv")
+            DfToCsv(spark, aggregateQuantity, "aggregateQuantity")
+            DfToCsv(spark, preConsumerWasteRecords, "preConsumerWasteRecords")
+            DfToCsv(spark, postConsumerWasteRecords, "postConsumerWasteRecords")
+            DfToCsv(spark, aggregateQuantityByFood, "aggregateQuantityByFood")
+            DfToCsv(spark, aggregateQuantityByLoss, "aggregateQuantityByLoss")
         } 
         else {
             println("invalid response")
@@ -131,9 +131,10 @@ object SparkFoodWasteAggregateJob {
     }
 
     def splitDate(df: DataFrame): DataFrame = {
+        import org.apache.spark.sql.functions._
         // NOTE: substring() start position is 1 based index not 0
-        val tmpDf = df.selectExpr("substring(timestamp, 7, 4)").as("year")
-        val dateSplitDf = tmpDf.selectExpr("substring(timestamp, 1, 2)").as("month")
+        val tmpdf = df.select(col("*"), substring(col("timestamp"), 7, 4).as("year"))
+        val dateSplitDf = tmpdf.select(col("*"), substring(col("timestamp"), 1, 2).as("month"))
         dateSplitDf
     }
 
@@ -165,7 +166,7 @@ object SparkFoodWasteAggregateJob {
 
     def aggregateByWasteCategory(df: DataFrame): DataFrame = {
         import org.apache.spark.sql.functions._
-        df.groupBy("wasteCategory").agg(sum("quantity"))
+        df.groupBy("wasteType").agg(sum("quantity"))
     }
 
     def aggregateByLossReason(df: DataFrame): DataFrame = {
@@ -178,8 +179,7 @@ object SparkFoodWasteAggregateJob {
             df = df,
             format = "csv",
             sc = spark.sparkContext,
-            tmpFolder = conf.outputPathTmp,
-            filename = conf.outputPathCsv+csvName)
+            tmpFolder = conf.outputPathCsv+csvName,
+            filename = conf.outputPathCsv+csvName+".csv")
     }
-
 }

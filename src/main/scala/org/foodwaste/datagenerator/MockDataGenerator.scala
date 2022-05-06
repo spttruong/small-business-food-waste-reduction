@@ -33,19 +33,25 @@ object MockDataGenerator {
             case 2  => randomIntBetween(1,29)(rnd) // 1 to 28, doesn't account for leap years
             case 4 | 6 | 9 | 11 => randomIntBetween(1,30)(rnd) // 1 to 30
         }
+
         val randYear = randomIntBetween(2020,2021)(rnd) // up to 2021
         val randHours = randomIntBetween(0,23)(rnd) // up to 23 hours
         val randMinutes = randomIntBetween(0,59)(rnd) // up to 59 mins
         val randSeconds = randomIntBetween(0,59)(rnd) // up to 59 seconds
         
         val tmpMonth = randMonth
-        
         val month = tmpMonth match {
             case tmpMonth if tmpMonth <= 9 => s"0$tmpMonth" // adds leading 0
             case _ => tmpMonth.toString()
         }
 
-        val timestamp = s"${month}/${randDateStream(tmpMonth)}/$randYear $randHours:$randMinutes:$randSeconds"
+        val tmpdate = randDateStream(tmpMonth) 
+        val date = tmpdate match {
+            case tmpdate if tmpdate <= 9 => s"0$tmpdate" // adds leading 0
+            case _ => tmpdate.toString()
+        }
+
+        val timestamp = s"${month}/${date}/$randYear $randHours:$randMinutes:$randSeconds"
         timestamp
 
     }

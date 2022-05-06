@@ -1,1 +1,1 @@
-["org.foodwaste.datagenerator.MakeMockData","org.foodwaste.datagenerator.MockDataToCsv","org.foodwaste.wastemetrics.SparkFoodWasteAggregateJob"]
+["org.foodwaste.datagenerator.MakeMockData","org.foodwaste.wastemetrics.SparkFoodWasteAggregateJob"]

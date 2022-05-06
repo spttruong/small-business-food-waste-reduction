@@ -1,2 +1,4 @@
 [0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
 [0m[[0m[0mdebug[0m] [0m[0m	(/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/resources/application.conf,/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/target/scala-2.13/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/resources/mock_data_output/mockdata.csv,/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/target/scala-2.13/classes/mock_data_output/mockdata.csv)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/resources/mock_data_output/_SUCCESS,/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/target/scala-2.13/classes/mock_data_output/_SUCCESS)[0m

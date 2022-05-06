@@ -17967,3 +17967,1139 @@ com.google.protobuf.InvalidProtocolBufferException: While parsing a protocol mes
 2022.05.05 20:28:33 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
 2022.05.05 20:28:36 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
 2022.05.05 20:28:38 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 20:29:43 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 20:29:43 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 20:29:52 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 20:29:54 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 20:29:56 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 20:30:19 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 20:30:19 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 20:30:23 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 20:30:23 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 20:30:48 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 20:30:49 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:69:17: stale bloop warning: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method println,
+or remove the empty argument list from its definition (Java-defined methods are exempt).
+In Scala 3, an unapplied method like this will be eta-expanded into a function.
+                println
+                ^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:6:1: stale bloop warning: Unused import
+import org.apache.spark.sql.{Dataset, DataFrame, Row}
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:6:1: stale bloop warning: Unused import
+import org.apache.spark.sql.{Dataset, DataFrame, Row}
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:55:17: stale bloop warning: local val aggregateQuantity in method runJob is never used
+                val aggregateQuantity = aggregateByWasteCategory(recordsByYearMonth)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:58:17: stale bloop warning: local val postConsumerWasteRecords in method runJob is never used
+                val postConsumerWasteRecords = returnPostConsumerRecords(recordsByYearMonth)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:60:17: stale bloop warning: local val aggregateQuantityByFood in method runJob is never used
+                val aggregateQuantityByFood = aggregateByFoodCategory(preConsumerWasteRecords)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:62:17: stale bloop warning: local val aggregateQuantityByLoss in method runJob is never used
+                val aggregateQuantityByLoss = aggregateByLossReason(preConsumerWasteRecords)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:69:17: stale bloop warning: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method println,
+or remove the empty argument list from its definition (Java-defined methods are exempt).
+In Scala 3, an unapplied method like this will be eta-expanded into a function.
+                println
+                ^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:6:1: stale bloop warning: Unused import
+import org.apache.spark.sql.{Dataset, DataFrame, Row}
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:6:1: stale bloop warning: Unused import
+import org.apache.spark.sql.{Dataset, DataFrame, Row}
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:55:17: stale bloop warning: local val aggregateQuantity in method runJob is never used
+                val aggregateQuantity = aggregateByWasteCategory(recordsByYearMonth)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:58:17: stale bloop warning: local val postConsumerWasteRecords in method runJob is never used
+                val postConsumerWasteRecords = returnPostConsumerRecords(recordsByYearMonth)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:60:17: stale bloop warning: local val aggregateQuantityByFood in method runJob is never used
+                val aggregateQuantityByFood = aggregateByFoodCategory(preConsumerWasteRecords)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:62:17: stale bloop warning: local val aggregateQuantityByLoss in method runJob is never used
+                val aggregateQuantityByLoss = aggregateByLossReason(preConsumerWasteRecords)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:69:17: stale bloop warning: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method println,
+or remove the empty argument list from its definition (Java-defined methods are exempt).
+In Scala 3, an unapplied method like this will be eta-expanded into a function.
+                println
+                ^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:6:1: stale bloop warning: Unused import
+import org.apache.spark.sql.{Dataset, DataFrame, Row}
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:6:1: stale bloop warning: Unused import
+import org.apache.spark.sql.{Dataset, DataFrame, Row}
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:55:17: stale bloop warning: local val aggregateQuantity in method runJob is never used
+                val aggregateQuantity = aggregateByWasteCategory(recordsByYearMonth)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:58:17: stale bloop warning: local val postConsumerWasteRecords in method runJob is never used
+                val postConsumerWasteRecords = returnPostConsumerRecords(recordsByYearMonth)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:60:17: stale bloop warning: local val aggregateQuantityByFood in method runJob is never used
+                val aggregateQuantityByFood = aggregateByFoodCategory(preConsumerWasteRecords)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.05.05 20:39:40 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:62:17: stale bloop warning: local val aggregateQuantityByLoss in method runJob is never used
+                val aggregateQuantityByLoss = aggregateByLossReason(preConsumerWasteRecords)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+May 05, 2022 8:41:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15886
+2022.05.05 22:53:43 ERROR timeout: build server 'bloop' during shutdown
+2022.05.05 22:53:43 ERROR timeout: build server 'bloop' during shutdown
+2022.05.05 22:53:43 ERROR timeout: build server 'bloop' during shutdown
+2022.05.05 22:53:43 ERROR timeout: build server 'bloop' during shutdown
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@471a8734[Shutting down, pool size = 77, active threads = 23, queued tasks = 0, completed tasks = 241051]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@471a8734[Shutting down, pool size = 68, active threads = 22, queued tasks = 0, completed tasks = 241052]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$zipWith$2(Promise.scala:151)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$zipWith$2$adapted(Promise.scala:145)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@471a8734[Shutting down, pool size = 65, active threads = 18, queued tasks = 0, completed tasks = 241056]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$DefaultPromise.linkRootOf(Promise.scala:347)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:471)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@471a8734[Shutting down, pool size = 66, active threads = 20, queued tasks = 0, completed tasks = 241054]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$DefaultPromise.linkRootOf(Promise.scala:347)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:471)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@471a8734[Shutting down, pool size = 68, active threads = 22, queued tasks = 0, completed tasks = 241052]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$DefaultPromise.linkRootOf(Promise.scala:347)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:471)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@471a8734[Shutting down, pool size = 44, active threads = 14, queued tasks = 0, completed tasks = 241060]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$zipWith$2(Promise.scala:151)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$zipWith$2$adapted(Promise.scala:145)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@471a8734[Shutting down, pool size = 12, active threads = 12, queued tasks = 0, completed tasks = 241062]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+	at scala.concurrent.Promise.complete(Promise.scala:57)
+	at scala.concurrent.Promise.complete$(Promise.scala:56)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:104)
+	at scala.meta.internal.metals.BatchedFunction.$anonfun$runRelease$8(BatchedFunction.scala:118)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.BatchedFunction.$anonfun$runRelease$7(BatchedFunction.scala:118)
+	at scala.meta.internal.metals.BatchedFunction.$anonfun$runRelease$7$adapted(BatchedFunction.scala:116)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+May 05, 2022 10:53:44 PM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireStreamClosed
+INFO: The input stream was closed.
+java.nio.channels.ClosedByInterruptException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:199)
+	at java.base/sun.nio.ch.SourceChannelImpl.endRead(SourceChannelImpl.java:241)
+	at java.base/sun.nio.ch.SourceChannelImpl.read(SourceChannelImpl.java:259)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:59)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:107)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:101)
+	at java.base/java.io.InputStream.read(InputStream.java:205)
+	at java.base/sun.nio.ch.ChannelInputStream.read(ChannelInputStream.java:81)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:79)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@471a8734[Shutting down, pool size = 12, active threads = 12, queued tasks = 0, completed tasks = 241062]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2055)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:825)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1355)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$DefaultPromise.linkRootOf(Promise.scala:347)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:471)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+2022.05.05 23:18:41 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/.metals/lsp.trace.json or /Users/steventruong/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.05.05 23:18:42 INFO  logging to file /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/.metals/metals.log
+2022.05.05 23:18:42 INFO  Started: Metals version 0.11.5 in workspace '/Users/steventruong/88c-final-proj/small-business-food-waste-reduction' for client Visual Studio Code 1.66.2.
+2022.05.05 23:18:45 INFO  time: initialize in 3.21s
+2022.05.05 23:18:45 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.05.05 23:18:46 INFO  Attempting to connect to the build server...
+2022.05.05 23:18:46 INFO  skipping build import with status 'Installed'
+2022.05.05 23:18:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/.metals/bsp.trace.json or /Users/steventruong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.05 23:18:46 INFO  Attempting to connect to the build server...
+2022.05.05 23:18:46 INFO  Attempting to connect to the build server...
+2022.05.05 23:18:46 INFO  Attempting to connect to the build server...
+2022.05.05 23:18:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/project/project/project/.metals/bsp.trace.json or /Users/steventruong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.05 23:18:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/project/project/.metals/bsp.trace.json or /Users/steventruong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.05 23:18:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/project/.metals/bsp.trace.json or /Users/steventruong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.05 23:18:47 INFO  time: Connected to build server in 0.66s
+2022.05.05 23:18:47 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.05 23:18:47 INFO  time: Imported build in 0.26s
+2022.05.05 23:18:55 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:18:59 INFO  time: indexed workspace in 12s
+2022.05.05 23:19:01 INFO  compiling root (1 scala source)
+2022.05.05 23:19:10 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+May 05, 2022 11:19:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/publishDiagnostics",
+  "params": {
+    "textDocument": {
+      "uri": "file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/test/scala/foodwaste/MockDataGeneratorTest.scala"
+    },
+    "buildTarget": {
+      "uri": "file:/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/?id\u003droot-test"
+    },
+    "diagnostics": [
+      {
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 3,
+        "source": "bloop",
+        "message": "\nFound names but no class, trait or object is defined in the compilation unit.\nThe incremental compiler cannot record the dependency information in such case.\nSome errors like unused import referring to a non-existent class might not be reported.\n    "
+      }
+    ],
+    "reset": true
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/test/scala/foodwaste/MockDataGeneratorTest.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:527)
+	at scala.meta.internal.metals.Diagnostics.onPublishDiagnostics(Diagnostics.scala:156)
+	at scala.meta.internal.metals.Diagnostics.onBuildPublishDiagnostics(Diagnostics.scala:136)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.onBuildPublishDiagnostics(ForwardingMetalsBuildClient.scala:109)
+	... 16 more
+
+May 05, 2022 11:19:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/publishDiagnostics",
+  "params": {
+    "textDocument": {
+      "uri": "file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/test/scala/org/foodwaste/MockDataGeneratorTest.scala"
+    },
+    "buildTarget": {
+      "uri": "file:/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/?id\u003droot-test"
+    },
+    "diagnostics": [
+      {
+        "range": {
+          "start": {
+            "line": 0,
+            "character": 0
+          },
+          "end": {
+            "line": 0,
+            "character": 0
+          }
+        },
+        "severity": 3,
+        "source": "bloop",
+        "message": "\nFound names but no class, trait or object is defined in the compilation unit.\nThe incremental compiler cannot record the dependency information in such case.\nSome errors like unused import referring to a non-existent class might not be reported.\n    "
+      }
+    ],
+    "reset": true
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/test/scala/org/foodwaste/MockDataGeneratorTest.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:527)
+	at scala.meta.internal.metals.Diagnostics.onPublishDiagnostics(Diagnostics.scala:156)
+	at scala.meta.internal.metals.Diagnostics.onBuildPublishDiagnostics(Diagnostics.scala:136)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.onBuildPublishDiagnostics(ForwardingMetalsBuildClient.scala:109)
+	... 16 more
+
+2022.05.05 23:19:19 INFO  time: compiled root in 18s
+2022.05.05 23:21:08 INFO  compiling root (1 scala source)
+2022.05.05 23:21:08 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.5' (since 2m 22.109s)
+2022.05.05 23:21:08 INFO  compiling root (1 scala source)
+2022.05.05 23:21:15 INFO  time: compiled root in 6.02s
+2022.05.05 23:21:15 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.5' (since 2m 28.307s)
+2022.05.05 23:22:34 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.5' (since 3m 47.138s)
+2022.05.05 23:23:01 INFO  compiling root (1 scala source)
+May 05, 2022 11:23:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: file%3A%2F%2F%2FUsers%2Fsteventruong%2F88c-final-proj%2Fsmall-business-food-waste-reduction%2Fsrc%2Fmain%2Fscala%2Forg%2Ffoodwaste%2Fwastemetrics%2FSparkFoodWasteAggregateJob.scala:6: error: end of file expected but } found
+import org.apache.spark.sql.DataFrame}
+                                     ^
+file%3A%2F%2F%2FUsers%2Fsteventruong%2F88c-final-proj%2Fsmall-business-food-waste-reduction%2Fsrc%2Fmain%2Fscala%2Forg%2Ffoodwaste%2Fwastemetrics%2FSparkFoodWasteAggregateJob.scala:6: error: end of file expected but } found
+import org.apache.spark.sql.DataFrame}
+                                     ^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:360)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:364)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:60)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:129)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:203)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2022.05.05 23:23:02 ERROR TextDocument.uri not found: src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: TextDocument.uri not found: src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$organizeImports$1(ScalafixProvider.scala:113)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:829)
+
+May 05, 2022 11:23:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: TextDocument.uri not found: src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+java.util.concurrent.CompletionException: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: TextDocument.uri not found: src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: scala.meta.internal.metals.ScalafixProvider$ScalafixRunException: TextDocument.uri not found: src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+	at scala.meta.internal.metals.ScalafixProvider.$anonfun$organizeImports$1(ScalafixProvider.scala:113)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2022.05.05 23:23:01 INFO  time: compiled root in 0.57s
+2022.05.05 23:23:04 INFO  compiling root (1 scala source)
+2022.05.05 23:23:10 INFO  time: compiled root in 5.8s
+2022.05.05 23:23:18 INFO  Deduplicating compilation of root from bsp client 'Metals 0.11.5' (since 4m 31.934s)
+2022.05.05 23:39:13 INFO  compiling root (1 scala source)
+2022.05.05 23:39:16 INFO  time: compiled root in 2.66s
+2022.05.05 23:39:19 INFO  compiling root (1 scala source)
+2022.05.05 23:39:19 INFO  time: compiled root in 0.68s
+2022.05.05 23:39:21 INFO  compiling root (1 scala source)
+2022.05.05 23:39:25 INFO  time: compiled root in 4.2s
+2022.05.05 23:39:27 INFO  compiling root (1 scala source)
+2022.05.05 23:39:28 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:39:28 INFO  time: compiled root in 1.26s
+2022.05.05 23:39:28 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:39:28 INFO  compiling root (1 scala source)
+2022.05.05 23:39:29 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:39:31 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:39:33 INFO  time: compiled root in 3.9s
+2022.05.05 23:39:33 INFO  compiling root (1 scala source)
+2022.05.05 23:39:36 INFO  time: compiled root in 2.78s
+2022.05.05 23:39:36 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:39:45 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:42:41 INFO  compiling root (1 scala source)
+2022.05.05 23:42:44 INFO  time: compiled root in 2.79s
+May 05, 2022 11:42:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 206
+May 05, 2022 11:42:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 210
+May 05, 2022 11:42:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 208
+May 05, 2022 11:42:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 209
+2022.05.05 23:42:48 INFO  compiling root (1 scala source)
+2022.05.05 23:42:50 INFO  time: compiled root in 2.63s
+2022.05.05 23:47:36 INFO  compiling root (1 scala source)
+2022.05.05 23:47:41 INFO  time: compiled root in 4.09s
+2022.05.05 23:48:06 INFO  compiling root (1 scala source)
+2022.05.05 23:48:10 INFO  time: compiled root in 3.58s
+2022.05.05 23:48:10 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:48:11 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:48:12 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:48:13 INFO  compiling root (1 scala source)
+2022.05.05 23:48:13 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:48:15 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:48:16 INFO  time: compiled root in 3.44s
+2022.05.05 23:48:18 INFO  compiling root (1 scala source)
+2022.05.05 23:48:21 INFO  time: compiled root in 2.74s
+2022.05.05 23:48:23 INFO  compiling root (1 scala source)
+2022.05.05 23:48:25 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:48:26 INFO  time: compiled root in 3.32s
+2022.05.05 23:48:27 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:48:27 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:48:27 INFO  compiling root (1 scala source)
+2022.05.05 23:48:28 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:48:29 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:48:31 INFO  time: compiled root in 3.35s
+2022.05.05 23:48:31 INFO  compiling root (1 scala source)
+2022.05.05 23:48:35 INFO  time: compiled root in 3.42s
+2022.05.05 23:48:35 INFO  compiling root (1 scala source)
+2022.05.05 23:48:35 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:48:35 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:48:37 INFO  time: compiled root in 1.74s
+2022.05.05 23:48:38 INFO  compiling root (1 scala source)
+2022.05.05 23:48:41 INFO  time: compiled root in 3.33s
+2022.05.05 23:48:42 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:48:43 INFO  compiling root (1 scala source)
+2022.05.05 23:48:43 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:48:44 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:48:44 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:48:46 INFO  time: compiled root in 2.85s
+2022.05.05 23:53:30 INFO  compiling root (1 scala source)
+2022.05.05 23:53:31 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+Exception in thread "pool-4-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+May 05, 2022 11:53:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 496
+2022.05.05 23:53:32 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.05 23:53:35 INFO  time: compiled root in 4.25s
+2022.05.05 23:53:43 INFO  compiling root (1 scala source)
+2022.05.05 23:53:43 INFO  time: compiled root in 0.65s
+2022.05.05 23:53:43 INFO  compiling root (1 scala source)
+2022.05.05 23:53:45 INFO  time: compiled root in 1.04s
+2022.05.05 23:53:55 INFO  compiling root (1 scala source)
+2022.05.05 23:53:57 INFO  time: compiled root in 2.66s
+2022.05.06 00:05:29 INFO  compiling root (1 scala source)
+2022.05.06 00:05:32 INFO  time: compiled root in 2.94s
+2022.05.06 00:05:32 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:05:48 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:05:49 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:05:50 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:05:51 INFO  compiling root (1 scala source)
+2022.05.06 00:05:51 INFO  time: compiled root in 0.13s
+2022.05.06 00:05:52 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:05:52 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:05:52 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:05:54 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:05:54 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:05:55 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:05:56 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:05:57 INFO  compiling root (1 scala source)
+2022.05.06 00:05:57 INFO  time: compiled root in 0.15s
+2022.05.06 00:05:57 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:05:59 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:06:00 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:06:01 INFO  compiling root (1 scala source)
+2022.05.06 00:06:01 INFO  time: compiled root in 0.12s
+2022.05.06 00:06:01 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:06:06 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:06:06 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:06:07 INFO  compiling root (1 scala source)
+2022.05.06 00:06:09 INFO  time: compiled root in 1.84s
+2022.05.06 00:06:10 INFO  compiling root (1 scala source)
+2022.05.06 00:06:10 INFO  time: compiled root in 0.11s
+2022.05.06 00:06:13 INFO  compiling root (1 scala source)
+2022.05.06 00:06:13 INFO  time: compiled root in 0.22s
+2022.05.06 00:06:18 INFO  compiling root (1 scala source)
+2022.05.06 00:06:18 INFO  time: compiled root in 0.2s
+2022.05.06 00:06:22 INFO  compiling root (1 scala source)
+2022.05.06 00:06:22 INFO  time: compiled root in 0.26s
+2022.05.06 00:06:23 INFO  compiling root (1 scala source)
+2022.05.06 00:06:23 INFO  time: compiled root in 0.11s
+2022.05.06 00:06:38 INFO  compiling root (1 scala source)
+2022.05.06 00:06:38 INFO  time: compiled root in 0.18s
+2022.05.06 00:06:40 INFO  compiling root (1 scala source)
+2022.05.06 00:06:41 INFO  time: compiled root in 1.37s
+2022.05.06 00:06:44 INFO  compiling root (1 scala source)
+May 06, 2022 12:06:46 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying cases.!=(null).&&(cases.nonEmpty)
+found that cases.nonEmpty is false
+where cases = List()
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying cases.!=(null).&&(cases.nonEmpty)
+found that cases.nonEmpty is false
+where cases = List()
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying cases.!=(null).&&(cases.nonEmpty)
+found that cases.nonEmpty is false
+where cases = List()
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Term$Match$.internal$85(Trees.scala:125)
+	at scala.meta.Term$Match$.apply(Trees.scala:125)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$matchClause$2(ScalametaParser.scala:1397)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.matchClause(ScalametaParser.scala:1397)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1593)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1457)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1339)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1367)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$1(ScalametaParser.scala:3265)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.patDefOrDcl(ScalametaParser.scala:3251)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3215)
+	at scala.meta.internal.parsers.ScalametaParser.localDef(ScalametaParser.scala:4207)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1(ScalametaParser.scala:4233)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1$adapted(ScalametaParser.scala:4218)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:516)
+	at scala.meta.internal.parsers.ScalametaParser.blockStatSeq(ScalametaParser.scala:4218)
+	at scala.meta.internal.parsers.ScalametaParser.blockWithStats$1(ScalametaParser.scala:2266)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$block$1(ScalametaParser.scala:2268)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.block(ScalametaParser.scala:2265)
+	at scala.meta.internal.parsers.ScalametaParser.blockExpr(ScalametaParser.scala:2262)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:2072)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:334)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:344)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2043)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2041)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2025)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2007)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1568)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1457)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1339)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1367)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:3493)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:3435)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:3380)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3221)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3200)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4162)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4156)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4108)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1(ScalametaParser.scala:4148)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1$adapted(ScalametaParser.scala:4147)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:516)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4147)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:3993)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOr(ScalametaParser.scala:231)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:227)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:3993)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4001)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:3982)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:3956)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:3702)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:3694)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3571)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3552)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$4.applyOrElse(ScalametaParser.scala:4127)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$4.applyOrElse(ScalametaParser.scala:4115)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4108)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4309)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4322)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4322)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4322)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4279)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4272)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4272)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4277)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:129)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:126)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:119)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:89)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$parseTreesAndPublishDiags$2(MetalsLanguageServer.scala:307)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.05.06 00:06:46 INFO  time: compiled root in 1.89s
+May 06, 2022 12:06:47 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying cases.!=(null).&&(cases.nonEmpty)
+found that cases.nonEmpty is false
+where cases = List()
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying cases.!=(null).&&(cases.nonEmpty)
+found that cases.nonEmpty is false
+where cases = List()
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying cases.!=(null).&&(cases.nonEmpty)
+found that cases.nonEmpty is false
+where cases = List()
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Term$Match$.internal$85(Trees.scala:125)
+	at scala.meta.Term$Match$.apply(Trees.scala:125)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$matchClause$2(ScalametaParser.scala:1397)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.matchClause(ScalametaParser.scala:1397)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1593)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1457)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1339)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1367)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$1(ScalametaParser.scala:3265)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.patDefOrDcl(ScalametaParser.scala:3251)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3215)
+	at scala.meta.internal.parsers.ScalametaParser.localDef(ScalametaParser.scala:4207)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1(ScalametaParser.scala:4233)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1$adapted(ScalametaParser.scala:4218)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:516)
+	at scala.meta.internal.parsers.ScalametaParser.blockStatSeq(ScalametaParser.scala:4218)
+	at scala.meta.internal.parsers.ScalametaParser.blockWithStats$1(ScalametaParser.scala:2266)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$block$1(ScalametaParser.scala:2268)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.block(ScalametaParser.scala:2265)
+	at scala.meta.internal.parsers.ScalametaParser.blockExpr(ScalametaParser.scala:2262)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:2072)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:334)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:344)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2043)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2041)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2025)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2007)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1568)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1457)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1339)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1367)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:3493)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:3435)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:3380)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3221)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3200)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4162)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4156)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4108)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1(ScalametaParser.scala:4148)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1$adapted(ScalametaParser.scala:4147)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:516)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4147)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:3993)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOr(ScalametaParser.scala:231)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:227)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:3993)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4001)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:3982)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:3956)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:3702)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:3694)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3571)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3552)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$4.applyOrElse(ScalametaParser.scala:4127)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$4.applyOrElse(ScalametaParser.scala:4115)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4108)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4309)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4322)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4322)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4322)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4279)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4272)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4272)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4277)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:129)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:126)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:119)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:89)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$parseTreesAndPublishDiags$2(MetalsLanguageServer.scala:307)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.05.06 00:06:48 INFO  compiling root (1 scala source)
+2022.05.06 00:06:48 INFO  time: compiled root in 0.11s
+2022.05.06 00:06:48 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:06:56 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:07:01 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:07:02 INFO  compiling root (1 scala source)
+2022.05.06 00:07:04 INFO  time: compiled root in 1.7s
+2022.05.06 00:07:30 INFO  compiling root (1 scala source)
+2022.05.06 00:07:32 INFO  time: compiled root in 2.27s
+2022.05.06 00:07:32 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:07:33 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:07:35 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:07:37 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala
+2022.05.06 00:07:38 INFO  compiling root (1 scala source)
+2022.05.06 00:07:40 INFO  time: compiled root in 1.58s
+2022.05.06 00:07:44 INFO  compiling root (1 scala source)
+2022.05.06 00:07:44 INFO  time: compiled root in 0.26s
+2022.05.06 00:07:51 INFO  compiling root (1 scala source)
+2022.05.06 00:07:51 INFO  time: compiled root in 0.18s
+2022.05.06 00:07:57 INFO  compiling root (1 scala source)
+2022.05.06 00:07:57 INFO  time: compiled root in 0.27s
+2022.05.06 00:08:26 INFO  compiling root (1 scala source)
+2022.05.06 00:08:26 INFO  time: compiled root in 0.34s
+2022.05.06 00:08:43 INFO  compiling root (1 scala source)
+2022.05.06 00:08:43 INFO  time: compiled root in 0.17s
+2022.05.06 00:08:45 INFO  compiling root (1 scala source)
+2022.05.06 00:08:45 INFO  time: compiled root in 0.24s
+2022.05.06 00:08:48 INFO  compiling root (1 scala source)
+2022.05.06 00:08:48 INFO  time: compiled root in 96ms
+2022.05.06 00:08:50 INFO  compiling root (1 scala source)
+2022.05.06 00:08:50 INFO  time: compiled root in 0.1s
+May 06, 2022 12:08:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying cases.!=(null).&&(cases.nonEmpty)
+found that cases.nonEmpty is false
+where cases = List()
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying cases.!=(null).&&(cases.nonEmpty)
+found that cases.nonEmpty is false
+where cases = List()
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:331)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:704)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2088)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying cases.!=(null).&&(cases.nonEmpty)
+found that cases.nonEmpty is false
+where cases = List()
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Term$Match$.internal$85(Trees.scala:125)
+	at scala.meta.Term$Match$.apply(Trees.scala:125)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$matchClause$2(ScalametaParser.scala:1397)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.matchClause(ScalametaParser.scala:1397)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1593)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1457)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1339)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1367)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$patDefOrDcl$1(ScalametaParser.scala:3265)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.patDefOrDcl(ScalametaParser.scala:3251)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3215)
+	at scala.meta.internal.parsers.ScalametaParser.localDef(ScalametaParser.scala:4207)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1(ScalametaParser.scala:4233)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1$adapted(ScalametaParser.scala:4218)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:516)
+	at scala.meta.internal.parsers.ScalametaParser.blockStatSeq(ScalametaParser.scala:4218)
+	at scala.meta.internal.parsers.ScalametaParser.blockWithStats$1(ScalametaParser.scala:2266)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$block$1(ScalametaParser.scala:2268)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.block(ScalametaParser.scala:2265)
+	at scala.meta.internal.parsers.ScalametaParser.blockExpr(ScalametaParser.scala:2262)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$1(ScalametaParser.scala:2072)
+	at scala.meta.internal.parsers.ScalametaParser.atPosTry(ScalametaParser.scala:334)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosTry(ScalametaParser.scala:344)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2043)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2041)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2025)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2007)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1568)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1457)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1339)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1367)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:3493)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:3435)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:3380)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3221)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3200)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4162)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4156)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4108)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1(ScalametaParser.scala:4148)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1$adapted(ScalametaParser.scala:4147)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:516)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4147)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:3993)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOr(ScalametaParser.scala:231)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:227)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:3993)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4001)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:3982)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:3956)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$objectDef$1(ScalametaParser.scala:3702)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:341)
+	at scala.meta.internal.parsers.ScalametaParser.objectDef(ScalametaParser.scala:3694)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3571)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3552)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$4.applyOrElse(ScalametaParser.scala:4127)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$4.applyOrElse(ScalametaParser.scala:4115)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4108)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4309)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4322)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:339)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4322)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4322)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4279)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4272)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4272)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4277)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:129)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:126)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:119)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:89)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$parseTreesAndPublishDiags$2(MetalsLanguageServer.scala:307)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2022.05.06 00:08:57 INFO  compiling root (1 scala source)
+2022.05.06 00:08:57 INFO  time: compiled root in 0.35s
+2022.05.06 00:09:01 INFO  compiling root (1 scala source)
+2022.05.06 00:09:01 INFO  time: compiled root in 0.12s
+2022.05.06 00:09:05 INFO  compiling root (1 scala source)
+2022.05.06 00:09:05 INFO  time: compiled root in 0.36s
+2022.05.06 00:09:08 INFO  compiling root (1 scala source)
+2022.05.06 00:09:08 INFO  time: compiled root in 0.34s
+2022.05.06 00:09:11 INFO  compiling root (1 scala source)
+2022.05.06 00:09:11 INFO  time: compiled root in 0.35s
+2022.05.06 00:09:19 INFO  compiling root (1 scala source)
+2022.05.06 00:09:19 INFO  time: compiled root in 0.33s
+2022.05.06 00:11:35 INFO  compiling root (1 scala source)
+2022.05.06 00:11:35 INFO  time: compiled root in 0.17s
+2022.05.06 00:11:45 INFO  compiling root (1 scala source)
+2022.05.06 00:11:45 INFO  time: compiled root in 0.18s
+2022.05.06 00:11:59 INFO  compiling root (1 scala source)
+2022.05.06 00:11:59 INFO  time: compiled root in 0.33s
+2022.05.06 00:12:04 INFO  compiling root (1 scala source)
+2022.05.06 00:12:04 INFO  time: compiled root in 0.23s
+2022.05.06 00:12:08 INFO  compiling root (1 scala source)
+2022.05.06 00:12:08 INFO  time: compiled root in 0.2s
+2022.05.06 00:13:29 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:50:49: stale bloop error: not found: value x
+            case tmpdate if tmpdate <= 9 => s"0$x" // adds leading 0
+                                                ^
+2022.05.06 00:13:29 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:50:49: stale bloop error: not found: value x
+            case tmpdate if tmpdate <= 9 => s"0$x" // adds leading 0
+                                                ^
+2022.05.06 00:13:30 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:50:49: stale bloop error: not found: value x
+            case tmpdate if tmpdate <= 9 => s"0$x" // adds leading 0
+                                                ^
+2022.05.06 00:13:30 INFO  compiling root (1 scala source)
+2022.05.06 00:13:30 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:50:47: stale bloop error: unclosed string literal
+            case tmpdate if tmpdate <= 9 => s"0$" // adds leading 0
+                                              ^
+2022.05.06 00:13:30 INFO  time: compiled root in 0.14s
+2022.05.06 00:13:33 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:50:47: stale bloop error: unclosed string literal
+            case tmpdate if tmpdate <= 9 => s"0$" // adds leading 0
+                                              ^
+2022.05.06 00:13:33 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:50:47: stale bloop error: unclosed string literal
+            case tmpdate if tmpdate <= 9 => s"0$" // adds leading 0
+                                              ^
+2022.05.06 00:13:34 INFO  compiling root (1 scala source)
+2022.05.06 00:13:34 INFO  time: compiled root in 0.53s
+2022.05.06 00:13:37 INFO  compiling root (1 scala source)
+2022.05.06 00:13:38 INFO  time: compiled root in 1.26s
+2022.05.06 00:24:19 INFO  compiling root (1 scala source)
+2022.05.06 00:24:19 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:136:69: stale bloop error: invalid literal number
+        val tmpdf = df.select(col("*"), substring(col("timestamp"), 7n
+                                                                    ^
+2022.05.06 00:24:19 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:136:69: stale bloop error: invalid literal number
+        val tmpdf = df.select(col("*"), substring(col("timestamp"), 7n
+                                                                    ^
+2022.05.06 00:24:19 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:140:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.06 00:24:19 INFO  time: compiled root in 0.12s
+2022.05.06 00:24:22 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:136:69: stale bloop error: invalid literal number
+        val tmpdf = df.select(col("*"), substring(col("timestamp"), 7n
+                                                                    ^
+2022.05.06 00:24:22 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:140:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.06 00:24:22 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:136:69: stale bloop error: invalid literal number
+        val tmpdf = df.select(col("*"), substring(col("timestamp"), 7n
+                                                                    ^
+2022.05.06 00:24:22 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:140:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.06 00:24:22 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:136:69: stale bloop error: invalid literal number
+        val tmpdf = df.select(col("*"), substring(col("timestamp"), 7n
+                                                                    ^
+2022.05.06 00:24:22 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:140:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.06 00:24:23 INFO  compiling root (1 scala source)
+2022.05.06 00:24:23 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:136:69: stale bloop error: invalid literal number
+        val tmpdf = df.select(col("*"), substring(col("timestamp"), 7n, 10).as("year"))
+                                                                    ^
+2022.05.06 00:24:23 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:136:69: stale bloop error: invalid literal number
+        val tmpdf = df.select(col("*"), substring(col("timestamp"), 7n, 10).as("year"))
+                                                                    ^
+2022.05.06 00:24:23 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:139:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.06 00:24:23 INFO  time: compiled root in 0.13s
+2022.05.06 00:24:23 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:136:69: stale bloop error: invalid literal number
+        val tmpdf = df.select(col("*"), substring(col("timestamp"), 7n, 10).as("year"))
+                                                                    ^
+2022.05.06 00:24:23 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:139:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.06 00:24:23 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:136:69: stale bloop error: invalid literal number
+        val tmpdf = df.select(col("*"), substring(col("timestamp"), 7n, 10).as("year"))
+                                                                    ^
+2022.05.06 00:24:23 INFO  file:///Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:139:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.05.06 00:28:46 INFO  compiling root (1 scala source)
+2022.05.06 00:28:49 INFO  time: compiled root in 2.95s
+2022.05.06 00:30:42 INFO  compiling root (1 scala source)
+2022.05.06 00:30:44 INFO  time: compiled root in 1.91s
+2022.05.06 00:30:46 INFO  compiling root (1 scala source)
+2022.05.06 00:30:49 INFO  time: compiled root in 2.76s
+2022.05.06 00:32:08 INFO  compiling root (1 scala source)
+2022.05.06 00:32:10 INFO  time: compiled root in 2.5s
+2022.05.06 00:32:11 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.06 00:32:22 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala

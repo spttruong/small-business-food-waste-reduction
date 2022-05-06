@@ -1,5 +1,11 @@
 [0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/target/scala-2.13/foodwasteproject_2.13-0.1.0-SNAPSHOT.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	mock_data_output[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/target/scala-2.13/classes/mock_data_output[0m
+[0m[[0m[0mdebug[0m] [0m[0m	mock_data_output/mockdata.csv[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/target/scala-2.13/classes/mock_data_output/mockdata.csv[0m
+[0m[[0m[0mdebug[0m] [0m[0m	mock_data_output/_SUCCESS[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/target/scala-2.13/classes/mock_data_output/_SUCCESS[0m
 [0m[[0m[0mdebug[0m] [0m[0m	org[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/target/scala-2.13/classes/org[0m
 [0m[[0m[0mdebug[0m] [0m[0m	org/foodwaste[0m
@@ -52,12 +58,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/target/scala-2.13/classes/org/foodwaste/datagenerator/MockDataGenerator$FoodWasteRecord.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	org/foodwaste/datagenerator/MockDataGenerator$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/target/scala-2.13/classes/org/foodwaste/datagenerator/MockDataGenerator$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	org/foodwaste/datagenerator/MockDataToCsv$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/target/scala-2.13/classes/org/foodwaste/datagenerator/MockDataToCsv$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	org/foodwaste/datagenerator/MakeMockData.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/target/scala-2.13/classes/org/foodwaste/datagenerator/MakeMockData.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	org/foodwaste/datagenerator/MockDataToCsv.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/target/scala-2.13/classes/org/foodwaste/datagenerator/MockDataToCsv.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	org/foodwaste/datagenerator/MockDataGenerator.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/target/scala-2.13/classes/org/foodwaste/datagenerator/MockDataGenerator.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	org/foodwaste/datagenerator/MockDataGenerator$FoodWasteRecord$.class[0m

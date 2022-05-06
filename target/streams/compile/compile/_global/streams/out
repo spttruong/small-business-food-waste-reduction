@@ -1,25 +1,4 @@
-[0m[[0m[33mwarn[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:6:30: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport org.apache.spark.sql.{Dataset, DataFrame, Row}[0m
-[0m[[0m[33mwarn[0m] [0m[0m                             ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:6:50: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport org.apache.spark.sql.{Dataset, DataFrame, Row}[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                 ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:8:54: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport org.foodwaste.datagenerator.MockDataGenerator.FoodWasteRecord[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                     ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:9:57: Unused import[0m
-[0m[[0m[33mwarn[0m] [0m[0mimport com.github.mrpowers.spark.daria.sql.DariaWriters.writeSingleFile[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                                        ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:38:17: local val year in method runJob is never used[0m
-[0m[[0m[33mwarn[0m] [0m[0m            val year = readLine().toInt[0m
-[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:47:21: local val month in method runJob is never used[0m
-[0m[[0m[33mwarn[0m] [0m[0m                val month = readLine().toInt[0m
-[0m[[0m[33mwarn[0m] [0m[0m                    ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:90:19: parameter value spark in method splitDate is never used[0m
-[0m[[0m[33mwarn[0m] [0m[0m    def splitDate(spark: SparkSession, df: DataFrame): DataFrame = {[0m
-[0m[[0m[33mwarn[0m] [0m[0m                  ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala:95:42: parameter value year in method foodRecordsByYear is never used[0m
-[0m[[0m[33mwarn[0m] [0m[0m    def foodRecordsByYear(df: DataFrame, year: Int): DataFrame = {[0m
-[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m8 warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/datagenerator/MockDataGenerator.scala:50:49: not found: value x[0m
+[0m[[0m[31merror[0m] [0m[0m            case tmpdate if tmpdate <= 9 => s"0$x" // adds leading 0[0m
+[0m[[0m[31merror[0m] [0m[0m                                                ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
