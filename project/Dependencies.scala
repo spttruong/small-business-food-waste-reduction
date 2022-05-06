@@ -42,9 +42,4 @@ object Dependencies {
     "ch.qos.logback" % "logback-classic" % "1.2.3"
 
   )
-
-  lazy val extra = Seq(
-    // writing Scala lists to CSV files
-    "io.kontainers" %% "purecsv" % "1.3.10"
-  )
 }

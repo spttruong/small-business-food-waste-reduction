@@ -19103,3 +19103,55 @@ where cases = List()
 2022.05.06 00:32:10 INFO  time: compiled root in 2.5s
 2022.05.06 00:32:11 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
 2022.05.06 00:32:22 WARN  Could not load snapshot text for /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/src/main/scala/org/foodwaste/wastemetrics/SparkFoodWasteAggregateJob.scala
+2022.05.06 00:48:09 INFO  time: code lens generation in 4.92s
+2022.05.06 00:48:09 INFO  time: code lens generation in 6.25s
+2022.05.06 00:55:41 INFO  compiling small-business-food-waste-reduction-build (1 scala source)
+2022.05.06 00:55:49 INFO  time: compiled small-business-food-waste-reduction-build in 7.51s
+2022.05.06 00:55:54 INFO  running '/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/lh/tf2swn5j5kz38kx37k5bwfy80000gn/T/metals4598745795257639336/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.05.06 00:55:57 INFO  [info] welcome to sbt 1.6.1 (Eclipse Adoptium Java 11.0.14)
+2022.05.06 00:55:59 INFO  [info] loading settings for project small-business-food-waste-reduction-build-build-build-build from metals.sbt ...
+2022.05.06 00:56:01 INFO  [info] loading project definition from /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/project/project/project/project
+2022.05.06 00:56:03 INFO  [info] loading settings for project small-business-food-waste-reduction-build-build-build from metals.sbt ...
+2022.05.06 00:56:03 INFO  [info] loading project definition from /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/project/project/project
+2022.05.06 00:56:07 INFO  [success] Generated .bloop/small-business-food-waste-reduction-build-build-build.json
+2022.05.06 00:56:07 INFO  [success] Total time: 4 s, completed May 6, 2022, 12:56:07 AM
+2022.05.06 00:56:07 INFO  [info] loading settings for project small-business-food-waste-reduction-build-build from metals.sbt,plugins.sbt ...
+2022.05.06 00:56:07 INFO  [info] loading project definition from /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/project/project
+2022.05.06 00:56:09 INFO  [success] Generated .bloop/small-business-food-waste-reduction-build-build.json
+2022.05.06 00:56:09 INFO  [success] Total time: 1 s, completed May 6, 2022, 12:56:09 AM
+2022.05.06 00:56:09 INFO  [info] loading settings for project small-business-food-waste-reduction-build from metals.sbt,plugins.sbt ...
+2022.05.06 00:56:11 INFO  [info] loading project definition from /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/project
+2022.05.06 00:56:13 INFO  [success] Generated .bloop/small-business-food-waste-reduction-build.json
+2022.05.06 00:56:13 INFO  [info] compiling 1 Scala source to /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/project/target/scala-2.12/sbt-1.0/classes ...
+2022.05.06 00:56:17 INFO  skipping build import with status 'Started'
+2022.05.06 00:56:20 INFO  [info] done compiling
+2022.05.06 00:56:20 INFO  [success] Total time: 9 s, completed May 6, 2022, 12:56:20 AM
+2022.05.06 00:56:27 ERROR /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/build.sbt:50: warning: method zip in object IO is deprecated (since 1.3.2): Please specify whether to use a static timestamp
+2022.05.06 00:56:27 ERROR   IO.zip(
+2022.05.06 00:56:27 ERROR      ^
+2022.05.06 00:56:28 INFO  [info] loading settings for project root from build.sbt,version.sbt ...
+2022.05.06 00:56:29 INFO  [info] set current project to FoodWasteProject (in build file:/Users/steventruong/88c-final-proj/small-business-food-waste-reduction/)
+2022.05.06 00:56:33 INFO  [success] Generated .bloop/root-test.json
+2022.05.06 00:56:33 INFO  [success] Generated .bloop/root.json
+2022.05.06 00:56:33 INFO  [success] Total time: 4 s, completed May 6, 2022, 12:56:33 AM
+2022.05.06 00:56:34 INFO  time: ran 'sbt bloopInstall' in 40s
+2022.05.06 00:56:34 INFO  Disconnecting from Bloop session...
+2022.05.06 00:56:34 INFO  Shut down connection with build server.
+2022.05.06 00:56:34 INFO  Shut down connection with build server.
+2022.05.06 00:56:34 INFO  Shut down connection with build server.
+2022.05.06 00:56:34 INFO  Shut down connection with build server.
+2022.05.06 00:56:34 INFO  Attempting to connect to the build server...
+2022.05.06 00:56:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/.metals/bsp.trace.json or /Users/steventruong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.06 00:56:34 INFO  Attempting to connect to the build server...
+2022.05.06 00:56:34 INFO  Attempting to connect to the build server...
+2022.05.06 00:56:34 INFO  Attempting to connect to the build server...
+2022.05.06 00:56:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/project/project/.metals/bsp.trace.json or /Users/steventruong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.06 00:56:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/project/project/project/.metals/bsp.trace.json or /Users/steventruong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.06 00:56:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/steventruong/88c-final-proj/small-business-food-waste-reduction/project/.metals/bsp.trace.json or /Users/steventruong/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.05.06 00:56:34 INFO  time: Connected to build server in 0.15s
+2022.05.06 00:56:34 INFO  Connected to Build server: Bloop v1.5.0
+2022.05.06 00:56:39 INFO  time: indexed workspace in 4.93s
+2022.05.06 01:09:22 INFO  compiling root (5 scala sources)
+2022.05.06 01:09:28 INFO  time: compiled root in 5.67s
+2022.05.06 01:09:28 INFO  compiling root-test (2 scala sources)
+2022.05.06 01:09:29 INFO  time: compiled root-test in 1.48s

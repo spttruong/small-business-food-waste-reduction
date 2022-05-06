@@ -16,7 +16,7 @@ lazy val root = (project in file(".")).
       "-language:higherKinds", // HKT required for Monads and other HKT types
       "-Wunused", // for scalafix
     ),
-    libraryDependencies ++= Dependencies.core ++ Dependencies.scalaTest ++ Dependencies.extra,
+    libraryDependencies ++= Dependencies.core ++ Dependencies.scalaTest,
     assembly / mainClass := Some("org.foodwaste.wastemetrics.SparkFoodWasteAggregateJob"),
     assembly / assemblyJarName := "FoodWasteAggregatorSparkJob.jar",
     assembly / test := {},
