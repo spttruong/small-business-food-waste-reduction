@@ -47,7 +47,7 @@ Your output files should be written to `src/main/resources/foodwaste_aggregate_o
 
 This can be changed in `application.conf`.
 
-### Refernces:
+### References:
 
 **Special thanks to these resources and their creators:**
 
